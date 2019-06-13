@@ -83,16 +83,6 @@ export default class News extends Component {
 												<h5>Create Responsive Website</h5>
 											</div>
 										</div>
-										{/* <div class="carousel-item">
-											<img
-												style={{ width: '100%', height: '380px' }}
-												class="d-block img-fluid"
-												src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Wikipedia_space_ibiza%2803%29.jpg/220px-Wikipedia_space_ibiza%2803%29.jpg"
-											/>
-											<div class="carousel-caption">
-												<h5>Business Website Design</h5>
-											</div>
-										</div> */}
 									</div>
 									<a
 										class="carousel-control-prev"
@@ -281,17 +271,6 @@ export default class News extends Component {
 												style={{ width: '18rem', height: '200px', marginBottom: '30px' }}
 												class="img-responsive"
 											/>
-											{/* <ul>
-                                <a href="#">
-                                    <li><i class="fa fa-facebook"></i></li>
-                                </a>
-                                <a href="#">
-                                    <li><i class="fa fa-twitter"></i></li>
-                                </a>
-                                <a href="#">
-                                    <li><i class="fa fa-linkedin"></i></li>
-                                </a>
-                            </ul> */}
 										</div>
 										<Card.Title
 											class="text-center"
@@ -317,17 +296,6 @@ export default class News extends Component {
 												style={{ width: '18rem', height: '200px', marginBottom: '30px' }}
 												class="img-responsive"
 											/>
-											{/* <ul>
-                                <a href="#">
-                                    <li><i class="fa fa-facebook"></i></li>
-                                </a>
-                                <a href="#">
-                                    <li><i class="fa fa-twitter"></i></li>
-                                </a>
-                                <a href="#">
-                                    <li><i class="fa fa-linkedin"></i></li>
-                                </a>
-                            </ul> */}
 										</div>
 										<Card.Title
 											class="text-center"
@@ -354,17 +322,6 @@ export default class News extends Component {
 												style={{ width: '18rem', height: '200px', marginBottom: '30px' }}
 												class="img-responsive"
 											/>
-											{/* <ul>
-                                <a href="#">
-                                    <li><i class="fa fa-facebook"></i></li>
-                                </a>
-                                <a href="#">
-                                    <li><i class="fa fa-twitter"></i></li>
-                                </a>
-                                <a href="#">
-                                    <li><i class="fa fa-linkedin"></i></li>
-                                </a>
-                            </ul> */}
 										</div>
 										<Card.Title
 											class="text-center"
@@ -389,17 +346,6 @@ export default class News extends Component {
 												style={{ width: '18rem', height: '200px', marginBottom: '30px' }}
 												class="img-responsive"
 											/>
-											{/* <ul>
-                                <a href="#">
-                                    <li><i class="fa fa-facebook"></i></li>
-                                </a>
-                                <a href="#">
-                                    <li><i class="fa fa-twitter"></i></li>
-                                </a>
-                                <a href="#">
-                                    <li><i class="fa fa-linkedin"></i></li>
-                                </a>
-                            </ul> */}
 										</div>
 										<Card.Title
 											class="text-center"

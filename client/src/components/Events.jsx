@@ -142,11 +142,15 @@ export default class Events extends Component {
              
             <div class="containers">
                 <h1>Events</h1>
+				<br/>
+				<br/>
+			
                 	<Container class='text-center' fluid style={{ background: '#fffdf9', width: '100%', height: '100%', display: 'block', margin: 'auto 0' }}>
                 <div class="row">
                     <div class="col profile-pic text-center">
                         <div class="img-box">
-                            <img src="https://cdn.theatlantic.com/assets/media/img/mt/2018/01/RTS193GB/lead_720_405.jpg?mod=1533691918" style={{width: '18rem', height: '200px', marginBottom: '30px'}}class="img-responsive"/>
+						<Link to='/eventpage/'>
+                            <img src="https://cdn.theatlantic.com/assets/media/img/mt/2018/01/RTS193GB/lead_720_405.jpg?mod=1533691918" style={{width: '18rem', height: '200px', marginBottom: '30px'}}class="img-responsive"/></Link>
                             {/* <ul>
                                 <a href="#">
                                     <li><i class="fa fa-facebook"></i></li>

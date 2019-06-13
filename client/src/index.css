@@ -21,12 +21,23 @@ body {
 
 }
 
+.gallery img{
+    width: 230px;
+    padding: 5px;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+.gallery img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+
+}
+
 .header {
   /* background: #f5f6fc; */
   background: #efefef;
   width: 100%;
   margin: auto 0;
-
   letter-spacing: 1.4px;
 
 }
@@ -44,11 +55,16 @@ nav {
 
 }
 
+.red:hover  {
+  background: #efefef !important;
+  color: black !important;
+}
+
 .main-title {
   text-align: center;
   margin-top: 10px;
   font-size: 25px;
-  /* background: black; */
+  
   padding: 4px;
   color: #ba0e0e;
   font-weight: bold;
@@ -60,11 +76,15 @@ nav {
   letter-spacing: 1px;
 }
 
-.nav-item:hover {
-  background: #ba0e0e;
-  color: black !important;
-}
+/* .nav-item:hover {
+  background: #ba0e0e !important;
+  color: white !important;
+} */
 
+.nav-link:hover {
+  background: #ba0e0e !important;
+  color: white !important;
+}
 
 
 
@@ -421,7 +441,10 @@ button.bus {
   color: white;
   border-radius: 3%;
 }
-
+.bus:hover{
+    background: #efefef !important;
+  color: black !important;
+}
 .grays:hover {
   background: #eaecef;
 }

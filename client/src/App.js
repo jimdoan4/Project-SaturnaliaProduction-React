@@ -9,10 +9,12 @@ import Contact from './components/Contact';
 import News from './components/News';
 import Blogs from './components/Blogs';
 import Events from './components/Events';
+import EventPage from './components/EventPage';
 import Reviews from './components/Reviews';
 // import About from './components/About';
 // import DJ from './components/DJ';
 import Gallery from './components/Gallery';
+import GalleryPictures from './components/GalleryPictures';
 import GalleryShowPage from './components/GalleryShowPage';
 import ReviewShowPage from './components/ReviewShowPage';
 import { Form } from 'react-bootstrap';
@@ -102,8 +104,10 @@ class App extends Component {
 						<Route exact path="/reviews/:reviewId/" component={ReviewShowPage} />
 						<Route exact path="/contact/" component={Contact} />
 						<Route exact path="/gallery/" component={Gallery} />
+            	<Route exact path="/gallerypictures/" component={GalleryPictures} />
 						<Route exact path="/news/" component={News} />
 						<Route exact path="/events/" component={Events} />
+            <Route exact path="/eventpage/" component={EventPage} />
 						<Route exact path="/blogs/" component={Blogs} />
 						<Route exact path="/reviews/" component={Reviews} />
 						{/* <Route exact path="/about/" component={About} /> */}
