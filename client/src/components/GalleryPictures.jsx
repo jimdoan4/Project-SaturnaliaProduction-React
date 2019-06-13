@@ -137,41 +137,170 @@ export default class GalleryPictures extends Component {
 			// 		</div>
 			// 	</body>
 			// </div>
-				<div style={{ background: '#fffdf9', width: '100%', height: '100%' }}>
-						<section id="team">
-						
-              
-             
-            <div class="containers">
-                <h1>Gallery</h1>
-				<br/>
-				<br/>
-                	<Container class='text-center' fluid style={{ background: '#fffdf9', width: '100%', height: '100%', display: 'block', margin: 'auto 0' }}>
-                    
-        <div class="gallery">
-            <a href="" data-lightbox="mygallery" data-title="High resolution cat image"><img
-                    src="https://img1.wsimg.com/isteam/ip/b42774cc-c7c1-4981-8b31-f95f95b3378b/1f1c0f61-e333-4196-aaff-0e5e926a6aef.JPG/:/rs=w:800,h:1000,cg:true,m/cr=w:1600,h:1000,a:cc"/></a>
-            <a href="images/pic2.jpg" data-lightbox="mygallery" data-title="High resolution sparrow image"><img
-                    src="https://img1.wsimg.com/isteam/ip/b42774cc-c7c1-4981-8b31-f95f95b3378b/24ebc716-8405-4308-b80f-1815324949ec.jpg/:/rs=w:200,h:140,cg:true,m/cr=w:200,h:140,a:cc"/></a>
-            <a href="images/pic3.jpg" data-lightbox="mygallery" data-title="High resolution squirrel image"><img
-                    src="https://img1.wsimg.com/isteam/ip/b42774cc-c7c1-4981-8b31-f95f95b3378b/a56f9057-f9dd-4ad1-8436-326220385857.jpg/:/rs=w:200,h:140,cg:true,m/cr=w:200,h:140,a:cc"/></a>
-            <a href="https://img1.wsimg.com/isteam/ip/b42774cc-c7c1-4981-8b31-f95f95b3378b/190fc1d0-303c-45a6-8822-9823aacddc30.jpg/:/rs=w:200,h:140,cg:true,m/cr=w:200,h:140,a:cc" data-lightbox="mygallery" data-title="High resolution deer image"><img
-                    src="https://img1.wsimg.com/isteam/ip/b42774cc-c7c1-4981-8b31-f95f95b3378b/f24a77de-a16b-48ee-8cbc-acc4d9bc8ca5.jpg/:/rs=w:200,h:140,cg:true,m/cr=w:200,h:140,a:cc"/></a>
-            <a href="images/pic5.jpg" data-lightbox="mygallery" data-title="High resolution common chaffinch image"><img
-                    src="https://img1.wsimg.com/isteam/ip/b42774cc-c7c1-4981-8b31-f95f95b3378b/ccbe3b1b-3c45-4441-b530-ee43dc687ad9.jpg/:/rs=w:200,h:140,cg:true,m/cr=w:200,h:140,a:cc"/></a>
-            <a href="images/pic6.jpg" data-lightbox="mygallery"><img src="https://img1.wsimg.com/isteam/ip/b42774cc-c7c1-4981-8b31-f95f95b3378b/4eb1d5c5-c033-4fca-b1ba-12f665e96ab9.png/:/rs=w:200,h:140,cg:true,m/cr=w:200,h:140,a:cc"/></a>
-            {/* <a href="images/pic7.jpg" data-lightbox="mygallery"><img src="images/pic7-small.jpg"></a>
-            <a href="images/pic8.jpg" data-lightbox="mygallery"><img src="images/pic8-small.jpg"></a>
-            <a href="images/pic9.jpg" data-lightbox="mygallery"><img src="images/pic9-small.jpg"></a>
-            <a href="images/pic10.jpg" data-lightbox="mygallery"><img src="images/pic10-small.jpg"></a> */}
-        </div>
-                
-                 </Container>
-            </div>
-        </section>
-					
+			<div style={{ background: '#fffdf9', width: '100%', height: '100%' }}>
+				<section id="team">
+					<div class="containers">
+						<h1>
+							<p class="text-center">Atlanta Best Night Life</p>
+						</h1>
+						<br />
+						<Container
+							class="text-center"
+							fluid
+							style={{
+								background: '#fffdf9',
+								width: '100%',
+								height: '100%',
+								display: 'block',
+								margin: 'auto 0'
+							}}
+						>
+							<div class="row">
+								<div class="col profile-pic text-center">
+									<div class="img-box">
+										<img
+											src="https://i2.wp.com/www.gayvienna4u.com/wp-content/uploads/2018/01/circuis-party-vienna-1.jpg?fit=800%2C370&ssl=1"
+											style={{ width: '50rem', marginBottom: '30px' }}
+											class="img-responsive"
+										/>
+									</div>
+									<Card.Title
+										class="text-center"
+										style={{
+											color: 'black',
+											fontWeight: 'bold',
+											marginBottom: '10px',
+											fontSize: '20px'
+										}}
+									>
+										Retrospective: Lucrecia Martel
+									</Card.Title>
+									<Card.Text class="text-center">
+										<p>
+											In addition to their own booth, Ableton will host three main live sessions
+											led by artists like Berlin duo Skinnerbox, among others. After recent
+											announcements about ADE University launching young professional program
+											What's Next? and Celebrating 100 years of electronic music instruments we're
+											pleased to share that music software and hardware company Ableton continues
+											its ADE Sound Lab partnership for the fifth consecutive year, since the
+											beginning of the program in 2015. Over the years the manufacturer has become
+											a vital part of Sound Lab and we're looking forward to their contributions
+											in 2019.
+										</p>
+										As well as their own booth, which will showcase both the latest kit and all the
+										classic Ableton range, Sound Lab visitors can attend three main live sessions
+										with some amazing names demonstrating their working processes, performing, and
+										getting into Q&As with the audience.
+									</Card.Text>
+								</div>
+							</div>
+							<br />
+							<br />
+							<br />
+							<ul class="slides">
+								<input type="radio" name="radio-btn" id="img-1" checked />
+								<li class="slide-container">
+									<div class="slide">
+										<img src="https://partyinljubljana.com/images/clubs/top/disco-party-slovenia.jpg" />
+									</div>
+									<div class="nav">
+										<label for="img-6" class="prev">
+											&#x2039;
+										</label>
+										<label for="img-2" class="next">
+											&#x203a;
+										</label>
+									</div>
+								</li>
+
+								<input type="radio" name="radio-btn" id="img-2" />
+								<li class="slide-container">
+									<div class="slide">
+										<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMDvYa-r8HLdVux8kLi2J5MvDFCoP-l71AEItqsiPo_t5SrxRh" />
+									</div>
+									<div class="nav">
+										<label for="img-1" class="prev">
+											&#x2039;
+										</label>
+										<label for="img-3" class="next">
+											&#x203a;
+										</label>
+									</div>
+								</li>
+
+								<input type="radio" name="radio-btn" id="img-3" />
+								<li class="slide-container">
+									<div class="slide">
+										<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAifhV3Do01PEUDw5XhoQQjc8NoZPMWYbzqhEplFv4oKaBOUp_" />
+									</div>
+									<div class="nav">
+										<label for="img-2" class="prev">
+											&#x2039;
+										</label>
+										<label for="img-4" class="next">
+											&#x203a;
+										</label>
+									</div>
+								</li>
+
+								<input type="radio" name="radio-btn" id="img-4" />
+								<li class="slide-container">
+									<div class="slide">
+										<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIUWXWj1w0IJCy_iEDpB9OR52-OjgAVYgmlfirQpkTo2YfSxHC" />
+									</div>
+									<div class="nav">
+										<label for="img-3" class="prev">
+											&#x2039;
+										</label>
+										<label for="img-5" class="next">
+											&#x203a;
+										</label>
+									</div>
+								</li>
+
+								<input type="radio" name="radio-btn" id="img-5" />
+								<li class="slide-container">
+									<div class="slide">
+										<img src="https://img1.wsimg.com/isteam/ip/b42774cc-c7c1-4981-8b31-f95f95b3378b/f24a77de-a16b-48ee-8cbc-acc4d9bc8ca5.jpg/:/rs=w:200,h:140,cg:true,m/cr=w:200,h:140,a:cc" />
+									</div>
+									<div class="nav">
+										<label for="img-4" class="prev">
+											&#x2039;
+										</label>
+										<label for="img-6" class="next">
+											&#x203a;
+										</label>
+									</div>
+								</li>
+
+								<input type="radio" name="radio-btn" id="img-6" />
+								<li class="slide-container">
+									<div class="slide">
+										<img src="https://img1.wsimg.com/isteam/ip/b42774cc-c7c1-4981-8b31-f95f95b3378b/ccbe3b1b-3c45-4441-b530-ee43dc687ad9.jpg/:/rs=w:200,h:140,cg:true,m/cr=w:200,h:140,a:cc" />
+									</div>
+									<div class="nav">
+										<label for="img-5" class="prev">
+											&#x2039;
+										</label>
+										<label for="img-1" class="next">
+											&#x203a;
+										</label>
+									</div>
+								</li>
+
+								<li class="nav-dots">
+									<label for="img-1" class="nav-dot" id="img-dot-1" />
+									<label for="img-2" class="nav-dot" id="img-dot-2" />
+									<label for="img-3" class="nav-dot" id="img-dot-3" />
+									<label for="img-4" class="nav-dot" id="img-dot-4" />
+									<label for="img-5" class="nav-dot" id="img-dot-5" />
+									<label for="img-6" class="nav-dot" id="img-dot-6" />
+								</li>
+							</ul>
+						</Container>
 					</div>
-				
+				</section>
+			</div>
 		);
 	}
 }

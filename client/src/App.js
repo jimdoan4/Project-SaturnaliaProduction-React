@@ -7,7 +7,9 @@ import { NavDropdown } from 'react-bootstrap';
 import Home from './components/Home';
 import Contact from './components/Contact';
 import News from './components/News';
+import NewsPage from './components/NewsPage';
 import Blogs from './components/Blogs';
+import BlogsPage from './components/BlogsPage';
 import Events from './components/Events';
 import EventPage from './components/EventPage';
 import Reviews from './components/Reviews';
@@ -17,6 +19,7 @@ import Gallery from './components/Gallery';
 import GalleryPictures from './components/GalleryPictures';
 import GalleryShowPage from './components/GalleryShowPage';
 import ReviewShowPage from './components/ReviewShowPage';
+import ReviewsPage from './components/ReviewsPage';
 import { Form } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
 import { Jumbotron } from 'react-bootstrap';
@@ -102,13 +105,16 @@ class App extends Component {
 
 						<Route exact path="/gallerys/:galleryId/" component={GalleryShowPage} />
 						<Route exact path="/reviews/:reviewId/" component={ReviewShowPage} />
+						<Route exact path="/reviewspage/" component={ReviewsPage} />
 						<Route exact path="/contact/" component={Contact} />
 						<Route exact path="/gallery/" component={Gallery} />
             	<Route exact path="/gallerypictures/" component={GalleryPictures} />
 						<Route exact path="/news/" component={News} />
+						<Route exact path="/newspage/" component={NewsPage} />
 						<Route exact path="/events/" component={Events} />
             <Route exact path="/eventpage/" component={EventPage} />
 						<Route exact path="/blogs/" component={Blogs} />
+							<Route exact path="/blogspage/" component={BlogsPage} />
 						<Route exact path="/reviews/" component={Reviews} />
 						{/* <Route exact path="/about/" component={About} /> */}
 						{/* <Route exact path="/dj/" component={DJ} /> */}
@@ -160,9 +166,9 @@ class App extends Component {
             </div> */}
 						<div style={{ paddingTop: '20px' }} class="container tex-center">
 							<div class="row">
-								<div class="col-md-4">
+								<div class="col-md-4 text-center">
 									<h2
-										class="foot"
+										class="foot text-center red"
 										style={{ color: 'black', backgroundColor: '#ba0e0e', fontSize: '19px' }}
 									>
 										Useful Links
@@ -170,24 +176,24 @@ class App extends Component {
 									<p>Privacy Policy</p>
 									<p>Terms of Use</p>
 									<p>Return Policy</p>
-									<p>Discount Coupons</p>
+								
 								</div>
 
-								<div class="col-md-4">
+								<div class="col-md-4 text-center">
 									<h2
-										class="foot"
+										class="foot text-center red"
 										style={{ color: 'black', backgroundColor: '#ba0e0e', fontSize: '19px' }}
 									>
 										Company
 									</h2>
 									<p>About Us</p>
 									<p>Contact Us</p>
-									<p>Career</p>
+									
 									<p>Affiliate</p>
 								</div>
-								<div class="col-md-4">
+								<div class="col-md-4 text-center">
 									<h2
-										class="foot"
+										class="foot text-center red"
 										style={{ color: 'white', backgroundColor: '#ba0e0e', fontSize: '19px' }}
 									>
 										Follow Us On
@@ -198,9 +204,7 @@ class App extends Component {
 									<p>
 										<i class="fa fa-youtube-play" /> YouTube
 									</p>
-									<p>
-										<i class="fa fa-linkedin" /> Linkedin
-									</p>
+								
 									<p>
 										<i class="fa fa-twitter" /> Twitter
 									</p>

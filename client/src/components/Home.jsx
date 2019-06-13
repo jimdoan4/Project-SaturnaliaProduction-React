@@ -16,8 +16,7 @@ export default class Home extends Component {
 					<div class="home-header">
 						<div class="banner-text">
 							<p>
-								World's Favourite<br />Travel Booking App Which Rewards<br />users For Every Booking And
-								Refer
+								World's Favourite<br />Club Promotion Event<br />Come let us be your guide
 							</p>
 						</div>
 					</div>
@@ -29,7 +28,8 @@ export default class Home extends Component {
                      <h5>WHAT WE DO</h5>
                         <h4 class='sec2' style={{margin: 'auto 200px', fontWeight: 'bold'}}>LIVE NATION SPECIAL EVENTS IS A ONE-STOP SOLUTION FOR ALL YOUR EVENT NEEDS.</h4>
                     </div>
-                    <p style={{margin: 'auto 200px'}} class="text-center">With over 100 venues across North America, we offer unique event spaces, state-of-the-art production and branding capabilities, as well as an experienced staff ready to exceed your guests' expectations.
+                    <p style={{margin: 'auto 200px'}} class="text-center">In ancient Roman times, there existed a festival that celebrated life in honor of the Roman god Saturn. All types of people came together to partake in this revelry and enjoy all of life’s indulgence.
+Come experience a Roman festival like never before, where we will unite to savor amazing sounds, incredible visuals and a carnival of fun that will have you yearning for more and ready to party and dance the night away.
                     </p>
                 </div>
                 {/* <div class="row">

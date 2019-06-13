@@ -6,6 +6,7 @@ import { Button } from 'react-bootstrap';
 import { Form } from 'react-bootstrap';
 import { Row } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
+import { ListGroup } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 export default class Contact extends Component {
@@ -23,17 +24,31 @@ export default class Contact extends Component {
 							elementum vehicula quis ut dui. Nam porta nulla lacus, scelerisque eleifend mauris elementum
 							et.
 						</p>
+						<br/>
+						<div class="container">
 						<div class="row">
-							<div class="col-md-4">
-								<div class="trending-img">
-									<img src="https://costumesupercenter-weblinc.netdna-ssl.com/product_images/mens-greek-warrior-adult-plus-costume/573d4a4c69702d70de001913/large_thumb.jpg?c=1464111909" />
-									<button type="button" class="btn-buy">
-										Jim Doan
-									</button>
-									<div class="overlay" />
-								</div>
+							<div class="col text-center">
+							<Jumbotron>
+  <Card.Header style={{color: 'black'}}>General Enquiries</Card.Header>
+  <ListGroup variant="flush">
+    <ListGroup.Item className='red'>Phone: (229) 443-5522</ListGroup.Item>
+    <ListGroup.Item className='red'>Email: info@saturnaliaparty.com</ListGroup.Item>
+    <ListGroup.Item className='red'>Address: 703 Briarhill Ln, Atlanta, GA 30332</ListGroup.Item>
+  </ListGroup>
+ </Jumbotron>
+							
 							</div>
-							<div class="col-md-4">
+							<div class="col text-center">
+							<Jumbotron>
+  <Card.Header style={{color: 'black'}}>Social Media</Card.Header>
+  <ListGroup variant="flush">
+    <ListGroup.Item className='red'>Facebook: www.facebook.com/saturnaliaparty</ListGroup.Item>
+    <ListGroup.Item className='red'>Instagram: saturnaliaparty</ListGroup.Item>
+    <ListGroup.Item className='red'>Twitter: saturnaliaparty</ListGroup.Item>
+  </ListGroup>
+ </Jumbotron>
+			</div>
+							{/* <div class="col-md-4">
 								<div class="trending-img">
 									<img src="https://costumesupercenter-weblinc.netdna-ssl.com/product_images/mens-greek-warrior-adult-plus-costume/573d4a4c69702d70de001913/large_thumb.jpg?c=1464111909" />
 									<button type="button" class="btn-buy">
@@ -41,22 +56,14 @@ export default class Contact extends Component {
 									</button>
 									<div class="overlay" />
 								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="trending-img">
-									<img src="https://costumesupercenter-weblinc.netdna-ssl.com/product_images/mens-greek-warrior-adult-plus-costume/573d4a4c69702d70de001913/large_thumb.jpg?c=1464111909" />
-									<button type="button" class="btn-buy">
-										Jim Doan
-									</button>
-									<div class="overlay" />
-								</div>
-									</div>
+									</div> */}
+										</div>
 										</div>
 						
 					<br/>
 					<br/>
-					<br/>
-					<br/>
+				
+					
 
 						<h1>Contact Us</h1>
 					
@@ -65,7 +72,7 @@ export default class Contact extends Component {
 							{' '}
 							<br />
 							<div class="entry-content-post">
-								<h3 class='text-center'>Say Hello!</h3>
+								<h3 style={{color: 'black'}} class='text-center'>Say Hello!</h3>
 									<br />
 								<p class="text-center">
 								<div
