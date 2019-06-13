@@ -4,7 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "dev": "concurrently \"nodemon server.js\" \"cd client && npm start\"",
+    "postinstall": "cd client && npm i && npm run build"
+  },
+  "engines": {
+    "node": "10.15.0"
   },
   "repository": {
     "type": "git",
@@ -15,5 +21,13 @@
   "bugs": {
     "url": "https://github.com/jimdoan4/saturnalia-productions/issues"
   },
-  "homepage": "https://github.com/jimdoan4/saturnalia-productions#readme"
+  "homepage": "https://github.com/jimdoan4/saturnalia-productions#readme",
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.5.15",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1"
+  }
 }
