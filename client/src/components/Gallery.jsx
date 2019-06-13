@@ -149,7 +149,7 @@ export default class Gallery extends Component {
 			
                 	<Container class='text-center' fluid style={{ background: '#fffdf9', width: '100%', height: '100%', display: 'block', margin: 'auto 0' }}>
                 <div class="row">
-                    <div class="col profile-pic text-center">
+                    <div class="col profile-pic text-center red">
                         <div class="img-box">
 						<Link to='/gallerypictures/'>
                             <img src="https://cdn.theatlantic.com/assets/media/img/mt/2018/01/RTS193GB/lead_720_405.jpg?mod=1533691918" style={{width: '18.5rem', height: '335px', marginBottom: '10px'}}class="img-responsive"/></Link>
@@ -247,7 +247,7 @@ export default class Gallery extends Component {
                         
                         </div>
                         <Card.Title
-														class="text-center"
+														class="text-center red"
 														style={{ color: 'black', fontWeight: 'bold', marginBottom: '40px', fontSize: '20px' }}
 													>
 														Retrospective: Lucrecia Martel

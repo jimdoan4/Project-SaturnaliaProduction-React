@@ -32,7 +32,7 @@ class App extends Component {
 				<div>
 					<section class="headers text-center">
 						<nav class="navbar navbar-expand-lg navbar-light text-center">
-							<h5 class="main-title text-center">SATURNALIA PRODUCTIONS</h5>
+							<h5 class="main-title text-center"><Link class="main-title text-center" to='/'>SATURNALIA PRODUCTIONS</Link></h5>
 						</nav>
 					</section>
 
