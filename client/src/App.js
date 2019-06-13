@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Link } from 'react-router-dom';
- import { Nav } from 'react-bootstrap';
- import { Navbar } from 'react-bootstrap';
- import { NavDropdown } from 'react-bootstrap';
+import { Nav } from 'react-bootstrap';
+import { Navbar } from 'react-bootstrap';
+import { NavDropdown } from 'react-bootstrap';
 import Home from './components/Home';
 import Contact from './components/Contact';
 import News from './components/News';
@@ -13,91 +13,104 @@ import Reviews from './components/Reviews';
 // import About from './components/About';
 // import DJ from './components/DJ';
 import Gallery from './components/Gallery';
- import GalleryShowPage from './components/GalleryShowPage';
+import GalleryShowPage from './components/GalleryShowPage';
 import ReviewShowPage from './components/ReviewShowPage';
- import { Form } from 'react-bootstrap';
- import { Button } from 'react-bootstrap';
- import { Jumbotron } from 'react-bootstrap';
- import { FormControl } from 'react-bootstrap';
-
+import { Form } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
+import { Jumbotron } from 'react-bootstrap';
+import { FormControl } from 'react-bootstrap';
 
 class App extends Component {
 	render() {
 		return (
 			<Router>
-                <div>
-                <section class="header text-center">
-				    <nav class="navbar navbar-expand-lg navbar-light text-center">
-                {/* <a class="navbar-brand" href="#">
+				<div>
+					<section class="headers text-center">
+						<nav class="navbar navbar-expand-lg navbar-light text-center">
+							<h5 class="main-title text-center">SATURNALIA PRODUCTIONS</h5>
+						</nav>
+					</section>
+
+					<section class="header text-center">
+						<nav class="navbar navbar-expand-lg navbar-light text-center">
+							{/* <a class="navbar-brand" href="#">
                 <img src="images/fashion-logo.jpg"/></a> */}
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav text=-center">
+							<button
+								class="navbar-toggler"
+								type="button"
+								data-toggle="collapse"
+								data-target="#navbarNav"
+								aria-controls="navbarNav"
+								aria-expanded="false"
+								aria-label="Toggle navigation"
+							>
+								<i class="fa fa-bars" />
+							</button>
+							<div class="collapse navbar-collapse" id="navbarNav">
+								<ul class="navbar-nav text=-center">
+									<li class="nav-item">
+										<a
+											style={{ color: 'white', backgroundColor: '#ba0e0e' }}
+											class="nav-link"
+											href="/"
+										>
+											HOME
+										</a>
+									</li>
 
-                        <li class="nav-item">
-                            <a style={{ color: 'white', backgroundColor: 'black' }} class="nav-link"
-                                href="/">HOME</a>
-                        </li>
+									<li class="nav-item">
+										<a style={{ color: 'black' }} class="nav-link" href="/events/">
+											EVENTS
+										</a>
+									</li>
+									<li class="nav-item">
+										<a style={{ color: 'black' }} class="nav-link" href="/blogs/">
+											BLOGS
+										</a>
+									</li>
+									<li class="nav-item">
+										<a style={{ color: 'black' }} class="nav-link" href="/reviews/">
+											REVIEWS
+										</a>
+									</li>
+									<li class="nav-item">
+										<a style={{ color: 'black' }} class="nav-link" href="/gallery/">
+											GALLERY
+										</a>
+									</li>
+									<li class="nav-item">
+										<a style={{ color: 'black' }} class="nav-link" href="/news/">
+											NEWS
+										</a>
+									</li>
 
-                        <li class="nav-item">
-                            <a style= {{color: 'white'}} class="nav-link"
-                                href="/events/">EVENTS</a>
-                        </li>
-                         <li class="nav-item">
-                            <a style= {{color: 'white'}} class="nav-link"
-                                href="/blogs/">BLOGS</a>
-                                
-                        </li>
-                         <li class="nav-item">
-                            <a style= {{color: 'white'}} class="nav-link"
-                                href="/reviews/">REVIEWS</a>
-                                
-                        </li>
-                        <li class="nav-item">
-                            <a style= {{color: 'white'}} class="nav-link"
-                                href="/gallery/">GALLERY</a>
-                                
-                        </li>
-                        <li class="nav-item">
-                            <a style= {{color: 'white'}} class="nav-link"
-                                href="/news/">NEWS</a>
-                                
-                        </li>
-                        
-                        <li class="nav-item">
-                        	<Nav.Link href="/contact/" style= {{color: 'white'}}>
- 								CONTACT
-                                </Nav.Link>
-                        </li>
+									<li class="nav-item">
+										<Nav.Link href="/contact/" style={{ color: 'black' }}>
+											CONTACT
+										</Nav.Link>
+									</li>
+								</ul>
+							</div>
+							{/* <h4 class="main-title">SATURNALIA PRODUCTIONS</h4> */}
+						</nav>
+					</section>
 
-                    </ul>
-             
-                </div>
-                <h4 class='main-title'>SATURNALIA PRODUCTIONS</h4>
-            </nav>
-        </section>
-       
 					<Switch>
 						<Route exact path="/" component={Home} />
-                   
-                        <Route exact path="/gallerys/:galleryId/" component={GalleryShowPage} /> 
-                        <Route exact path="/reviews/:reviewId/" component={ReviewShowPage} /> 
+
+						<Route exact path="/gallerys/:galleryId/" component={GalleryShowPage} />
+						<Route exact path="/reviews/:reviewId/" component={ReviewShowPage} />
 						<Route exact path="/contact/" component={Contact} />
-						<Route exact path="/gallery/" component={Gallery} /> 
+						<Route exact path="/gallery/" component={Gallery} />
 						<Route exact path="/news/" component={News} />
 						<Route exact path="/events/" component={Events} />
 						<Route exact path="/blogs/" component={Blogs} />
 						<Route exact path="/reviews/" component={Reviews} />
 						{/* <Route exact path="/about/" component={About} /> */}
-                        {/* <Route exact path="/dj/" component={DJ} /> */}
-                    
-                       
+						{/* <Route exact path="/dj/" component={DJ} /> */}
 					</Switch>
-                    <section class="footer">
-            {/* <div class="container">
+					<section class="footer">
+						{/* <div class="container">
                 <div class="row">
                     <div class="col-md-4">
                         <div class="payment">
@@ -141,39 +154,61 @@ class App extends Component {
                     </div>
                 </div>
             </div> */}
-            <div style= {{paddingTop: '20px'}}class="container tex-center">
-                <div class="row">
-                    <div class="col-md-4">
-                        <h2 class='foot' style={{ color: 'black', backgroundColor: '#ba0e0e', fontSize: '19px' }} >Useful Links</h2>
-                        <p>Privacy Policy</p>
-                        <p>Terms of Use</p>
-                        <p>Return Policy</p>
-                        <p>Discount Coupons</p>
-                    </div>
+						<div style={{ paddingTop: '20px' }} class="container tex-center">
+							<div class="row">
+								<div class="col-md-4">
+									<h2
+										class="foot"
+										style={{ color: 'black', backgroundColor: '#ba0e0e', fontSize: '19px' }}
+									>
+										Useful Links
+									</h2>
+									<p>Privacy Policy</p>
+									<p>Terms of Use</p>
+									<p>Return Policy</p>
+									<p>Discount Coupons</p>
+								</div>
 
-                    <div class="col-md-4">
-                        <h2 class='foot' style={{ color: 'black', backgroundColor: '#ba0e0e', fontSize: '19px' }} >Company</h2>
-                        <p>About Us</p>
-                        <p>Contact Us</p>
-                        <p>Career</p>
-                        <p>Affiliate</p>
-                    </div>
-                    <div class="col-md-4">
-                        <h2 class='foot' style={{ color: 'white', backgroundColor: '#ba0e0e', fontSize: '19px' }} >Follow Us On</h2>
-                        <p><i class="fa fa-facebook-official"></i> Facebook</p>
-                        <p><i class="fa fa-youtube-play"></i> YouTube</p>
-                        <p><i class="fa fa-linkedin"></i> Linkedin</p>
-                        <p><i class="fa fa-twitter"></i> Twitter</p>
-                    </div>
-                    {/* <div class="col-md-3 footer-image">
+								<div class="col-md-4">
+									<h2
+										class="foot"
+										style={{ color: 'black', backgroundColor: '#ba0e0e', fontSize: '19px' }}
+									>
+										Company
+									</h2>
+									<p>About Us</p>
+									<p>Contact Us</p>
+									<p>Career</p>
+									<p>Affiliate</p>
+								</div>
+								<div class="col-md-4">
+									<h2
+										class="foot"
+										style={{ color: 'white', backgroundColor: '#ba0e0e', fontSize: '19px' }}
+									>
+										Follow Us On
+									</h2>
+									<p>
+										<i class="fa fa-facebook-official" /> Facebook
+									</p>
+									<p>
+										<i class="fa fa-youtube-play" /> YouTube
+									</p>
+									<p>
+										<i class="fa fa-linkedin" /> Linkedin
+									</p>
+									<p>
+										<i class="fa fa-twitter" /> Twitter
+									</p>
+								</div>
+								{/* <div class="col-md-3 footer-image">
                         <h1>Download App</h1>
                         <img src="images/app-logo.png"/>
                     </div> */}
-                </div>
-                </div>
-        </section>
-				
-				 </div>
+							</div>
+						</div>
+					</section>
+				</div>
 			</Router>
 		);
 	}
