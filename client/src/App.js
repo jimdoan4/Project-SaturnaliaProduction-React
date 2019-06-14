@@ -32,7 +32,11 @@ class App extends Component {
 				<div>
 					<section class="headers text-center">
 						<nav class="navbar navbar-expand-lg navbar-light text-center">
-							<h5 class="main-title text-center"><Link class="main-title text-center" to='/'>SATURNALIA PRODUCTIONS</Link></h5>
+							<h5 class="main-title text-center">
+								<Link class="main-title text-center" to="/">
+									SATURNALIA PRODUCTIONS
+								</Link>
+							</h5>
 						</nav>
 					</section>
 
@@ -96,7 +100,6 @@ class App extends Component {
 									</li>
 								</ul>
 							</div>
-							{/* <h4 class="main-title">SATURNALIA PRODUCTIONS</h4> */}
 						</nav>
 					</section>
 
@@ -108,93 +111,47 @@ class App extends Component {
 						<Route exact path="/reviewspage/" component={ReviewsPage} />
 						<Route exact path="/contact/" component={Contact} />
 						<Route exact path="/gallery/" component={Gallery} />
-            	<Route exact path="/gallerypictures/" component={GalleryPictures} />
+						<Route exact path="/gallerypictures/" component={GalleryPictures} />
 						<Route exact path="/news/" component={News} />
 						<Route exact path="/newspage/" component={NewsPage} />
 						<Route exact path="/events/" component={Events} />
-            <Route exact path="/eventpage/" component={EventPage} />
+						<Route exact path="/eventpage/" component={EventPage} />
 						<Route exact path="/blogs/" component={Blogs} />
-							<Route exact path="/blogspage/" component={BlogsPage} />
+						<Route exact path="/blogspage/" component={BlogsPage} />
 						<Route exact path="/reviews/" component={Reviews} />
 						{/* <Route exact path="/about/" component={About} /> */}
 						{/* <Route exact path="/dj/" component={DJ} /> */}
 					</Switch>
 					<section class="footer">
-						{/* <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="payment">
-                            <h5>PAYMENT GATEWAYS</h5>
-                            <img src="images/payment.png"/>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="footer-img">
-                            <h5>INSTAGRAM PICS</h5>
-                            <img src="images/insta1.jpg"/>
-                            <img src="images/insta2.jpg"/>
-                            <img src="images/insta3.jpg"/>
-                            
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="app-download">
-                            <h5>DOWNLOAD MOBILE APP</h5>
-                            <img src="images/play-store.png"/>
-                            <img src="images/app-store.png"/>
-                        </div>
-                    </div>
-                </div>
-
-                <hr/>
-                <div class="row">
-                    <div class="col-md-8">
-                        <p class="copyright">Designed with <i class="fa fa-heart"></i> by <a
-                                href="https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1">Easy
-                                Tutorials</a></p>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="footer-icons">
-                            <i class="fa fa-facebook"></i>
-                            <i class="fa fa-twitter"></i>
-                            <i class="fa fa-instagram"></i>
-                            <i class="fa fa-youtube-play"></i>
-                            <i class="fa fa-linkedin"></i>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
-						<div style={{ paddingTop: '20px' }} class="container tex-center">
+						<div style={{ paddingTop: '80px', paddingBottom: '60px' }} class="container tex-center">
 							<div class="row">
 								<div class="col-md-4 text-center">
 									<h2
-										class="foot text-center red"
-										style={{ color: 'black', backgroundColor: '#ba0e0e', fontSize: '19px' }}
+										class="text-center "
+										style={{ color: 'black', backgroundColor: '', fontSize: '19px' }}
 									>
 										Useful Links
 									</h2>
 									<p>Privacy Policy</p>
 									<p>Terms of Use</p>
 									<p>Return Policy</p>
-								
 								</div>
 
 								<div class="col-md-4 text-center">
 									<h2
-										class="foot text-center red"
-										style={{ color: 'black', backgroundColor: '#ba0e0e', fontSize: '19px' }}
+										class="text-center "
+										style={{ color: 'black', backgroundColor: '', fontSize: '19px' }}
 									>
 										Company
 									</h2>
 									<p>About Us</p>
 									<p>Contact Us</p>
-									
 									<p>Affiliate</p>
 								</div>
 								<div class="col-md-4 text-center">
 									<h2
-										class="foot text-center red"
-										style={{ color: 'white', backgroundColor: '#ba0e0e', fontSize: '19px' }}
+										class="text-center "
+										style={{ color: 'black', backgroundColor: '', fontSize: '19px' }}
 									>
 										Follow Us On
 									</h2>
@@ -204,17 +161,15 @@ class App extends Component {
 									<p>
 										<i class="fa fa-youtube-play" /> YouTube
 									</p>
-								
+
 									<p>
 										<i class="fa fa-twitter" /> Twitter
 									</p>
 								</div>
-								{/* <div class="col-md-3 footer-image">
-                        <h1>Download App</h1>
-                        <img src="images/app-logo.png"/>
-                    </div> */}
 							</div>
+							{/* <p className="text-center">© Bang & Olufsen 2019</p> */}
 						</div>
+						<p className="text-center">© SATURNALIA PRODUCTIONS 2019</p>
 					</section>
 				</div>
 			</Router>
