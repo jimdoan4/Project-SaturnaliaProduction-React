@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+
 }
 
 body {
@@ -36,25 +37,27 @@ body {
 }
 
 .header {
-  background: #efefef;
+  background: white;
   width: 100%;
   margin: auto 0;
   letter-spacing: 1.4px;
   border-color: black !important;
-
+      -webkit-box-shadow: 0px 0px 3px 2px rgba(20, 20, 31, 1);
+  -moz-box-shadow: 0px 0px 3px 2px rgba(20, 20, 31, 1);
+  box-shadow: 0px 0px 20px 3px #d6d6d6; 
 }
-
-.navbar {
-  text-align: center;
+/* #fffdf9 */
 
 
-}
 .seperate {
   margin: 6px 8px 19px 8px!important;
 }
 
 .red {
   background: #efefef;
+    -webkit-box-shadow: 0px 0px 3px 2px rgba(20, 20, 31, 1);
+  -moz-box-shadow: 0px 0px 3px 2px rgba(20, 20, 31, 1);
+  box-shadow: 0px 0px 20px 3px #d6d6d6; 
 }
 
 .red:hover {
@@ -99,13 +102,6 @@ body {
 
 
 
-.navbar-brand {
-
-  top: 29px;
-  transform: translateX(-50%);
-  position: absolute;
-
-}
 
 
 .navbar-toggler {
@@ -113,6 +109,7 @@ body {
   outline: none !important;
   padding: 0 !important;
   margin-top: 10px;
+  
 }
 
 .navbar-toggler .fa {
@@ -120,35 +117,6 @@ body {
   cursor: pointer;
 }
 
-/* .banner {
-  position: relative;
-} */
-
-/* .banner-img {
-  margin: 80px 115px;
-  width: 60%;
-} */
-
-/* .banner-img img {
-  width: 100%;
-  margin-bottom: -80px;
-} */
-
-/* .banner-title {
-  position: absolute;
-  left: 50%;
-  top: 20%;
-} */
-
-/* 
-.banner-title h1 {
-  font-size: 55px;
-  background: rgba(0, 0, 0, 0.74);
-  ;
-  color: #fff;
-  line-height: 70px;
-  padding: 10px 10px 0 10px;
-} */
 
 .row {
   margin: initial !important;
@@ -208,9 +176,9 @@ body {
   background: #efefef;
   display: block;
   color: black;
-  /* -webkit-box-shadow: 0px 0px 3px 2px rgba(20, 20, 31, 1);
+      -webkit-box-shadow: 0px 0px 3px 2px rgba(20, 20, 31, 1);
   -moz-box-shadow: 0px 0px 3px 2px rgba(20, 20, 31, 1);
-  box-shadow: 0px 0px 3px 2px rgba(20, 20, 31, 1); */
+  box-shadow: 0px 0px 20px 3px #d6d6d6; 
 }
 
 
@@ -442,12 +410,12 @@ h1::after {
 
 button.bus {
   background-color: #ba0e0e !important;
-  padding: 10px 8px 8px 10px;
+  padding: 25px 35px 25px 35px;
   font-size: 14px;
   display: block;
   margin: 0 auto;
   color: white;
-  border-radius: 3%;
+  border-radius: 2%;
 }
 
 .bus:hover {

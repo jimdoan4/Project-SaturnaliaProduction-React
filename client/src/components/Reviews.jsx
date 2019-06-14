@@ -453,7 +453,7 @@ export default class Reviews extends Component {
                 <h1>Reviews</h1>
 				<br/>
 				<br/>
-                	<Container class='text-center' fluid style={{ background: '#fffdf9', width: '100%', height: '100%', display: 'block', margin: 'auto 0' }}>
+                	<Container class='text-center'  style={{ background: '#fffdf9', width: '100%', height: '100%', margin: '0 auto', display: 'block', justifyContent: 'center' }}>
                 <div class="row">
                     <div class="row profile-pic text-center">
                         <div class="img-box">

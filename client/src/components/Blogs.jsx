@@ -133,7 +133,7 @@ export default class Blogs extends Component {
                         
 				
 			// </div>
-				<div style={{ background: '#fffdf9', width: '100%', height: '100%' }}>
+				<div style={{ background: '#fffdf9', width: '100%', height: '100%', margin: '0 auto' }}>
 						<section id="team">
 						
               
@@ -144,11 +144,11 @@ export default class Blogs extends Component {
 				<br/>
 
 
-                	<Container class='text-center' fluid style={{ background: '#fffdf9', width: '100%', height: '100%', display: 'block', margin: 'auto 0' }}>
+                	<Container class='text-center' style={{ background: '#fffdf9', width: '100%', height: '100%', margin: '0 auto', display: 'flex', justifyContent: 'center' }}>
                 <div class="col">
 			  <div class="col profile-pic text-center">
                         <div class="img-box">
-						 <Link style={{color: 'black', textDecoration: 'none'}}to='/blogspage/'>
+						 <Link style={{color: 'black', textDecoration: 'none'}} to='/blogspage/'>
   <Card className='red' style={{color: 'black'}}>
  
     <Card.Body>
@@ -161,7 +161,7 @@ export default class Blogs extends Component {
       </Card.Text>
     </Card.Body>
 	
-    <Card.Img variant="bottom" src="https://cdn.theatlantic.com/assets/media/img/mt/2018/01/RTS193GB/lead_720_405.jpg?mod=1533691918/900px180" class="img-responsive" />
+    <Card.Img variant="bottom" src="https://cdn.theatlantic.com/assets/media/img/mt/2018/01/RTS193GB/lead_720_405.jpg?mod=1533691918/900px180" class="img-responsive"  />
   </Card>
   </Link>
                    </div>

@@ -48,15 +48,7 @@ export default class Contact extends Component {
   </ListGroup>
  </Jumbotron>
 			</div>
-							{/* <div class="col-md-4">
-								<div class="trending-img">
-									<img src="https://costumesupercenter-weblinc.netdna-ssl.com/product_images/mens-greek-warrior-adult-plus-costume/573d4a4c69702d70de001913/large_thumb.jpg?c=1464111909" />
-									<button type="button" class="btn-buy">
-										Jim Doan
-									</button>
-									<div class="overlay" />
-								</div>
-									</div> */}
+					
 										</div>
 										</div>
 						
@@ -65,10 +57,10 @@ export default class Contact extends Component {
 				
 					
 
-						<h1>Contact Us</h1>
+						<h1 class=''>Contact Us</h1>
 					
 
-						<div class="entry-content">
+						<div class="entry-content card">
 							{' '}
 							<br />
 							<div class="entry-content-post">
@@ -107,9 +99,9 @@ export default class Contact extends Component {
 										</div>
 										<p>
 											Your Name (required)<br />{' '}
-											<span class="wpcf7-form-control-wrap your-name">
-												<input
-												style= {{width: '700px'}}
+											<span class="wpcf7-form-control-wrap your-name card" style={{margin: '0px 39px 0px 39px'}}>
+												<input class=''
+												
 													type="text"
 													name="your-name"
 													value=""
@@ -122,9 +114,9 @@ export default class Contact extends Component {
 										</p>
 										<p>
 											Your Email (required)<br />{' '}
-											<span class="wpcf7-form-control-wrap your-email">
+											<span class="wpcf7-form-control-wrap your-email card" style={{margin: '0px 39px 0px 39px'}}>
 												<input
-												style= {{width: '700px'}}
+												
 													type="email"
 													name="your-email"
 													value=""
@@ -137,9 +129,9 @@ export default class Contact extends Component {
 										</p>
 										<p>
 											Subject<br />{' '}
-											<span class="wpcf7-form-control-wrap your-subject">
+											<span class="wpcf7-form-control-wrap your-subject card" style={{margin: '0px 39px 0px 39px'}}>
 												<input
-												style= {{width: '700px'}}
+												
 													type="text"
 													name="your-subject"
 													value=""
@@ -151,9 +143,9 @@ export default class Contact extends Component {
 										</p>
 										<p>
 											Your Message<br />{' '}
-											<span class="wpcf7-form-control-wrap your-message">
+											<span class="wpcf7-form-control-wrap your-message card" style={{margin: '0px 39px 0px 39px'}}>
 												<textarea
-												style= {{width: '700px'}}
+											
 													name="your-message"
 													cols="40"
 													rows="10"

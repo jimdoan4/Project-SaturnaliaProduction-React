@@ -155,7 +155,7 @@ export default class Events extends Component {
                         </div>
                       <Card.Title
 														class="text-center"
-														style={{ color: 'black', fontWeight: 'bold', marginBottom: '10px', fontSize: '20px' }}
+													style={{ color: 'black', fontWeight: 'bold', marginBottom: '10px', fontSize: '20px', marginTop: '22px' }}
 													>
 														Retrospective: Lucrecia Martel
 													</Card.Title>
@@ -168,16 +168,16 @@ export default class Events extends Component {
                      {/* <Card > */}
                         <div class="img-box red">
                        
-                            <img src="https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1440,w_2560,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1526152229/180512-cathart-tbilisi-hero_zl4phh" style={{width: '18rem', height: '200px', marginBottom: '30px'}}class="img-responsive"/>
+                            <img src="https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1440,w_2560,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1526152229/180512-cathart-tbilisi-hero_zl4phh" style={{width: '18rem', height: '200px', marginBottom: '30px'}} class="img-responsive"/>
                          
                         </div>
                      <Card.Title
 														class="text-center"
-														style={{ color: 'black', fontWeight: 'bold', marginBottom: '10px', fontSize: '20px' }}
+														style={{ color: 'black', fontWeight: 'bold', marginBottom: '10px', fontSize: '20px', marginTop: '22px' }}
 													>
 														Retrospective: Lucrecia Martel
 													</Card.Title>
-													<Card.Text class="text-center">
+													<Card.Text class="text-center" 	style={{ marginBottom: '50px' }}>
 														Some quick example text to build on the card title and make up
 														the bulk of the card's content.
 													</Card.Text>
@@ -191,7 +191,7 @@ export default class Events extends Component {
                         </div>
                         <Card.Title
 														class="text-center"
-														style={{ color: 'black', fontWeight: 'bold', marginBottom: '10px', fontSize: '20px' }}
+														style={{ color: 'black', fontWeight: 'bold', marginBottom: '10px', fontSize: '20px', marginTop: '22px' }}
 													>
 														Retrospective: Lucrecia Martel
 													</Card.Title>
@@ -228,7 +228,7 @@ export default class Events extends Component {
                         </div>
                       <Card.Title
 														class="text-center"
-														style={{ color: 'black', fontWeight: 'bold', marginBottom: '10px', fontSize: '20px' }}
+														style={{ color: 'black', fontWeight: 'bold', marginBottom: '10px', fontSize: '20px', marginTop: '22px' }}
 													>
 														Retrospective: Lucrecia Martel
 													</Card.Title>
@@ -246,7 +246,7 @@ export default class Events extends Component {
                         </div>
                      <Card.Title
 														class="text-center"
-														style={{ color: 'black', fontWeight: 'bold', marginBottom: '10px', fontSize: '20px' }}
+														style={{ color: 'black', fontWeight: 'bold', marginBottom: '10px', fontSize: '20px', marginTop: '22px' }}
 													>
 														Retrospective: Lucrecia Martel
 													</Card.Title>
@@ -264,7 +264,7 @@ export default class Events extends Component {
                         </div>
                         <Card.Title
 														class="text-center"
-														style={{ color: 'black', fontWeight: 'bold', marginBottom: '10px', fontSize: '20px' }}
+														style={{ color: 'black', fontWeight: 'bold', marginBottom: '10px', fontSize: '20px', marginTop: '22px' }}
 													>
 														Retrospective: Lucrecia Martel
 													</Card.Title>
@@ -290,7 +290,7 @@ export default class Events extends Component {
                         </div>
                         <Card.Title
 														class="text-center"
-														style={{ color: 'black', fontWeight: 'bold', marginBottom: '10px', fontSize: '20px' }}
+														style={{ color: 'black', fontWeight: 'bold', marginBottom: '10px', fontSize: '20px', marginTop: '22px' }}
 													>
 														Retrospective: Lucrecia Martel
 													</Card.Title>
