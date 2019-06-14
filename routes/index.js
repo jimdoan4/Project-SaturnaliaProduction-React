@@ -7,6 +7,13 @@ const eventController = require('../controllers/eventController');
 const galleryController = require('../controllers/galleryController')
 
  router.get('/', appController.index);
+ 
+router.get('/events/', eventController.index);
+router.post('/events/', eventController.create);
+router.get('/events/:eventId/', eventController.show);
+router.put('/events/:eventId/', eventController.update);
+router.delete('/events/:eventId/', eventController.delete);
+
 
 router.get('/users/', userController.index);
 router.post('/users/', userController.create);
@@ -20,11 +27,7 @@ router.get('/reviews/:reviewId/', reviewController.show);
 router.put('/reviews/:reviewId/', reviewController.update);
 router.delete('/reviews/:reviewId/', reviewController.delete);
 
-router.get('/events/', eventController.index);
-router.post('/events/', eventController.create);
-router.get('/events/:eventId/', eventController.show);
-router.put('/events/:eventId/', eventController.update);
-router.delete('/events/:eventId/', eventController.delete);
+
 
 router.get('/gallerys/', galleryController.index);
 router.post('/gallerys/', galleryController.create);

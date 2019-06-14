@@ -11,60 +11,60 @@ import { Link } from 'react-router-dom';
 import { CardGroup } from 'react-bootstrap';
 
 export default class BlogsPage extends Component {
-	state = {
-		events: [],
-		newEvent: {
-			_id: '',
-			eventTitle: '',
-			eventDescription: '',
-			eventImage: ''
-		},
-		displayEventForm: false
-	};
+	// state = {
+	// 	events: [],
+	// 	newEvent: {
+	// 		_id: '',
+	// 		eventTitle: '',
+	// 		eventDescription: '',
+	// 		eventImage: ''
+	// 	},
+	// 	displayEventForm: false
+	// };
 
-	componentDidMount = () => {
-		this.getAllEvents();
-	};
+	// componentDidMount = () => {
+	// 	this.getAllEvents();
+	// };
 
-	getAllEvents = () => {
-		axios.get('/api/events/').then((res) => {
-			this.setState({ events: res.data });
-		});
-	};
+	// getAllEvents = () => {
+	// 	axios.get('/api/events/').then((res) => {
+	// 		this.setState({ events: res.data });
+	// 	});
+	// };
 
-	createEvent = (e) => {
-		axios
-			.post('/api/events/', {
-				eventTitle: this.state.newEvent.eventTitle,
-				eventDescription: this.state.newEvent.eventDescription,
-				eventImage: this.state.newEvent.eventImage
-			})
-			.then((res) => {
-				const eventsList = [ this.state.events ];
-				eventsList.unshift(res.data);
-				this.setState({
-					newEvent: {
-						eventTitle: '',
-						eventDescription: '',
-						eventImage: ''
-					},
-					displayEventForm: false,
-					events: eventsList
-				});
-			});
-		this.getAllEvents();
-	};
+	// createEvent = (e) => {
+	// 	axios
+	// 		.post('/api/events/', {
+	// 			eventTitle: this.state.newEvent.eventTitle,
+	// 			eventDescription: this.state.newEvent.eventDescription,
+	// 			eventImage: this.state.newEvent.eventImage
+	// 		})
+	// 		.then((res) => {
+	// 			const eventsList = [ this.state.events ];
+	// 			eventsList.unshift(res.data);
+	// 			this.setState({
+	// 				newEvent: {
+	// 					eventTitle: '',
+	// 					eventDescription: '',
+	// 					eventImage: ''
+	// 				},
+	// 				displayEventForm: false,
+	// 				events: eventsList
+	// 			});
+	// 		});
+	// 	this.getAllEvents();
+	// };
 
-	handleChange = (e) => {
-		const changeNewEvent = { ...this.state.newEvent };
-		changeNewEvent[e.target.name] = e.target.value;
-		this.setState({ newEvent: changeNewEvent });
-	};
+	// handleChange = (e) => {
+	// 	const changeNewEvent = { ...this.state.newEvent };
+	// 	changeNewEvent[e.target.name] = e.target.value;
+	// 	this.setState({ newEvent: changeNewEvent });
+	// };
 
-	handleSignUp = (e) => {
-		e.preventDefault();
-		this.createEvent();
-	};
+	// handleSignUp = (e) => {
+	// 	e.preventDefault();
+	// 	this.createEvent();
+	// };
 
 	render() {
 		return (

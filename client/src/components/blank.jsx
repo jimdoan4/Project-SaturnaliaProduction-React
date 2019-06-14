@@ -613,3 +613,178 @@
 
 
 			<div id="main" class="site-main container_12"><div id="primary" class="grid_8"><article id="post-121" class="single-post post-121 post type-post status-publish format-status has-post-thumbnail hentry category-club tag-tag3 tag-tag5 post_format-post-format-status"><header class="entry-header"><h1 class="entry-title">Junk MTV quiz graced</h1><div class="more-options share-bt"> <a class='share-click' title="Share"><i class="icon-share"></i></a><ul class="share-buttons"><li><a class="share-icon-fb" id="fbbutton" onclick="fbwindows('http://www.facebook.com/sharer.php?u=https://themes.wplook.com/stereoclub/junk-mtv-quiz-graced-by-fox-whelps/'); return false;"><i class="icon-facebook"></i></li></a><li><a class="share-icon-tw" id="twbutton" onClick="twwindows('http://twitter.com/intent/tweet?text=Junk MTV quiz graced&url=https://themes.wplook.com/stereoclub/junk-mtv-quiz-graced-by-fox-whelps/'); return false;"><i class="icon-twitter"></i></li></a><li><a class="share-icon-pt" id="pinbutton" onClick="pinwindows('http://pinterest.com/pin/create/button/?url=https://themes.wplook.com/stereoclub/junk-mtv-quiz-graced-by-fox-whelps/&media=');"><i class="icon-pinterest"></i></li></a></ul></div><div class="clear"></div></header><div class="entry-meta"> <time datetime="2010-03-20" class="fleft">September 6, 2017</time> <span class="category-selected fleft">Club</span> <span class="likes fright"><span class="post-like"><a href="#" data-post_id="121"><span class="like icon-heart2"></span></a> <span class="count">315 Likes</span></span></span> <span class="views fright"><i class="icon-eye"></i> 28618 Views</span><div class="clear"></div></div><div class="entry-content-list"><figure> <img width="800" height="500" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="https://themes.wplook.com/stereoclub/wp-content/uploads/sites/2/2013/09/5989204425_41490ddd31_o-800x500.jpg" class="attachment-large-thumb size-large-thumb wp-post-image" alt="" /><noscript><img width="800" height="500" src="https://themes.wplook.com/stereoclub/wp-content/uploads/sites/2/2013/09/5989204425_41490ddd31_o-800x500.jpg" class="attachment-large-thumb size-large-thumb wp-post-image" alt="" /></noscript></figure><div class="clear"></div><div class="entry-content-post"> <br /><p>He quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! &#8220;Now fax quiz Jack!&#8221; my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight for a quick jump. Joaquin Phoenix was gazed by MTV for luck.</p><div class="tag-i"> <i class="icon-tags"></i> <a href="#" rel="tag"><a href="https://themes.wplook.com/stereoclub/tag/tag3/" rel="tag">tag3</a>, <a href="https://themes.wplook.com/stereoclub/tag/tag5/" rel="tag">tag5</a></a></div></div><div class="clear"></div><nav class="entry-pagination"><div class="nav-previous"></div><div class="nav-next"><a href="https://themes.wplook.com/stereoclub/113/" rel="prev"><span class="nav-next-text">Next</span> <span class="nav-next-icon"></span></a></div><div class="clear"></div></nav></div></article><a name="comments"></a><div class="comments"><div id="respond"><header class="page-header"><h1 class="page-_comment-title">Leave a Comment <a rel="nofollow" id="cancel-comment-reply-link" href="/stereoclub/junk-mtv-quiz-graced-by-fox-whelps/#respond" style="display:none;">or Cancel reply</a></h1></header><form action="https://themes.wplook.com/stereoclub/wp-comments-post.php" method="post" id="commentform"><p class="comment-notes">Your email address will not be published. Required fields are marked <span class="required"><a>*</a></span></p><p class="comment-form-author"><label for="author">Name</label> <span class="required">*</span><input id="author" name="author" type="text" value="" size="30" aria-required='true' /></p><p class="comment-form-email"><label for="email">Email</label> <span class="required">*</span><input id="email" name="email" type="text" value="" size="30" aria-required='true' /></p><p class="comment-form-url"><label for="url">Website</label><input id="url" name="url" type="text" value="" size="30" /></p><p class="comment-form-comment"><label for="comment">Comment</label><textarea id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea></p><p class="form-submit"> <input name="submit" type="submit" id="submit" value="Send Comment" /> <input type='hidden' name='comment_post_ID' value='121' id='comment_post_ID' /> <input type='hidden' name='comment_parent' id='comment_parent' value='0' /></p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="0402304c30" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="3"/></p></form></div></div></div><div id="secondary" class="grid_4 widget-area" role="complementary"><aside id="archives-1" class="widget widget_archive"><div class="entry-header"><h1 class="entry-title">Archives</h1><div class="clear"></div></div><ul><li><a href='https://themes.wplook.com/stereoclub/2017/09/'>September 2017</a></li><li><a href='https://themes.wplook.com/stereoclub/2017/08/'>August 2017</a></li><li><a href='https://themes.wplook.com/stereoclub/2017/07/'>July 2017</a></li></ul></aside><aside id="calendar-1" class="widget widget_calendar"><div class="entry-header"><h1 class="entry-title">Calendar</h1><div class="clear"></div></div><div id="calendar_wrap" class="calendar_wrap"><table id="wp-calendar"><caption>June 2019</caption><thead><tr><th scope="col" title="Monday">M</th><th scope="col" title="Tuesday">T</th><th scope="col" title="Wednesday">W</th><th scope="col" title="Thursday">T</th><th scope="col" title="Friday">F</th><th scope="col" title="Saturday">S</th><th scope="col" title="Sunday">S</th></tr></thead><tfoot><tr><td colspan="3" id="prev"><a href="https://themes.wplook.com/stereoclub/2017/09/">&laquo; Sep</a></td><td class="pad">&nbsp;</td><td colspan="3" id="next" class="pad">&nbsp;</td></tr></tfoot><tbody><tr><td colspan="5" class="pad">&nbsp;</td><td>1</td><td>2</td></tr><tr><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr><tr><td>10</td><td id="today">11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td></tr><tr><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td></tr><tr><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td></tr></tbody></table></div></aside><aside id="tag_cloud-1" class="widget widget_tag_cloud"><div class="entry-header"><h1 class="entry-title">TagCloud</h1><div class="clear"></div></div><div class="tagcloud"><a href="https://themes.wplook.com/stereoclub/tag/tag1/" class="tag-cloud-link tag-link-5 tag-link-position-1" style="font-size: 14px;">tag1</a> <a href="https://themes.wplook.com/stereoclub/tag/tag2/" class="tag-cloud-link tag-link-6 tag-link-position-2" style="font-size: 14px;">tag2</a> <a href="https://themes.wplook.com/stereoclub/tag/tag3/" class="tag-cloud-link tag-link-7 tag-link-position-3" style="font-size: 14px;">tag3</a> <a href="https://themes.wplook.com/stereoclub/tag/tag4/" class="tag-cloud-link tag-link-8 tag-link-position-4" style="font-size: 14px;">tag4</a> <a href="https://themes.wplook.com/stereoclub/tag/tag5/" class="tag-cloud-link tag-link-9 tag-link-position-5" style="font-size: 14px;">tag5</a> <a href="https://themes.wplook.com/stereoclub/tag/tag6/" class="tag-cloud-link tag-link-10 tag-link-position-6" style="font-size: 14px;">tag6</a> <a href="https://themes.wplook.com/stereoclub/tag/tag7/" class="tag-cloud-link tag-link-11 tag-link-position-7" style="font-size: 14px;">tag7</a> <a href="https://themes.wplook.com/stereoclub/tag/tag8/" class="tag-cloud-link tag-link-12 tag-link-position-8" style="font-size: 14px;">tag8</a></div></aside></div><div class="clear"></div></div>
+
+
+
+
+
+			<h1 class=''>Contact Us</h1>
+					
+
+						<div class="entry-content card">
+							{' '}
+							<br />
+							<div class="entry-content-post">
+								<h3 style={{color: 'black'}} class='text-center'>Add Event Here!</h3>
+									<br />
+								<p class="text-center">
+								<div>
+									<div class="screen-reader-response" />
+									<form
+										onSubmit={this.createEvent}
+										class="wpcf7-form"
+										
+									>
+										<div style={{ display: 'none' }}>
+											{/* {' '}
+											<input type="hidden" name="_wpcf7" value="225" />{' '}
+											<input type="hidden" name="_wpcf7_version" value="5.1.3" />{' '}
+											<input type="hidden" name="_wpcf7_locale" value="en_US" />{' '}
+											<input
+												type="hidden"
+												name="_wpcf7_unit_tag"
+												value="wpcf7-f225-p15-o1"
+											/>{' '}
+											<input
+												type="hidden"
+												name="_wpcf7_container_post"
+												value="15"
+											/> */}
+										</div>
+										<p>
+											Image Name<br />{' '}
+											<span class="wpcf7-form-control-wrap your-name card" style={{margin: '0px 39px 0px 39px'}}>
+												<input class=''
+												id="eventImage"
+									type="text"
+									name="eventImage"
+									onChange={this.handleChange}
+									value={this.state.newEvent.eventImage}
+												
+													size="40"
+													class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+													
+												/>
+											</span>
+										</p>
+										<p>
+											Title<br />{' '}
+											<span class="wpcf7-form-control-wrap your-email card" style={{margin: '0px 39px 0px 39px'}}>
+												<input
+													id="eventTitle"
+									type="text"
+									name="eventTitle"
+									onChange={this.handleChange}
+									value={this.state.newEvent.eventTitle}
+												
+													size="40"
+													class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
+													aria-required="true"
+													aria-invalid="false"
+												/>
+											</span>
+										</p>
+									
+										<p>
+											Description<br />{' '}
+											<span class="wpcf7-form-control-wrap your-message card" style={{margin: '0px 39px 0px 39px'}}>
+												<textarea
+												type="text"
+									name="eventDescription"
+									onChange={this.handleChange}
+									value={this.state.newEvent.eventDescription}
+													name="your-message"
+													cols="40"
+													rows="10"
+													class="wpcf7-form-control wpcf7-textarea"
+													aria-invalid="false"
+												/>
+											</span>
+										</p>
+										<p>
+											<input
+											style= {{padding: '15px 96px 15px 96px', background: ' #ba0e0e', color: 'white', fontSize: '20px', borderRadius: '.1'}}
+												type="submit"
+												value="Send"
+												class="wpcf7-form-control wpcf7-submit red"
+											/>
+										</p>
+									
+									</form>
+								</div>
+								</p>
+							</div>
+							</div>
+
+						
+				</div>
+
+
+
+
+				eventId: this.props.eventId,
+		events: [],
+		event: {
+			_id: '',
+			eventTitle: '',
+			eventDescription: '',
+			eventImage: ''
+			
+		},
+		redirectToEvent: false,
+		displayEventForm: false
+	};
+
+	getSingleEventData = () => {
+		axios.get(`/api/events/${this.state.eventId}`).then((res) => {
+			this.setState({ event: res.data });
+		});
+	};
+
+	componentDidMount = () => {
+		this.getSingleEventData();
+	};
+
+	toggleEventForm = () => {
+		this.setState((state, props) => {
+			return { displayEventForm: !state.displayEventForm };
+		});
+	};
+
+	handleChange = (e) => {
+		const updateEvent = { ...this.state.event };
+		updateEvent[e.target.name] = e.target.value;
+		this.setState({ event: updateEvent });
+	};
+
+	handleChange = (e) => {
+		const newEvent = { ...this.state.event };
+		newEvent[e.target.name] = e.target.value;
+		this.setState({ event: newEvent });
+	};
+
+	 updateEvent = (e) => {
+	 	e.preventDefault();
+ 	axios
+		  .put(`/api/events/${this.state.eventId}`, {
+				eventTitle: this.state.event.eventTitle,
+			  eventDescription: this.state.event.eventDescription,
+			  eventImage: this.state.event.eventImage,
+			
+ 		})
+		.then((res) => {
+			this.setState({ event: res.data, displayEventForm: false });
+		});
+		this.getSingleEventData();
+	 };
+
+	deleteEvent = () => {
+		axios.delete(`/api/events/${this.state.eventId}`).then((res) => {
+			this.setState({ redirectToEvent: true });
+		});
+	};
+
+	render() {
+		if (this.state.redirectToEvent) {
+			return <Redirect to={`/events/`} />;
+		}

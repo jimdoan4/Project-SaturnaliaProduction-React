@@ -33,7 +33,7 @@ module.exports = {
 	UserSchema: UserSchema,
 	GallerySchema: GallerySchema,
 	EventSchema: EventSchema,
-	ReviewSchema: ReviewSchema,
+	ReviewSchema: ReviewSchema
 
 };
 

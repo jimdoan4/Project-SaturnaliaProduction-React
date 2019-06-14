@@ -51,15 +51,7 @@ export default class Home extends Component {
 								<h1> Latest Events</h1>
 								<br />
 								<Container
-									class="text-center"
-									fluid
-									style={{
-										background: '#fffdf9',
-										width: '100%',
-										height: '100%',
-										display: 'block',
-										margin: 'auto 0'
-									}}
+									class='text-center' style={{ background: '#fffdf9', width: '100%', height: '100%', margin: '0 auto', display: 'block', justifyContent: 'center' }}
 								>
 									<div class="row">
 										<div class="col profile-pic text-center red seperate">

@@ -25,23 +25,10 @@ const gallery = new Gallery({
 const event = new Event({
 	eventTitle: "Code Gay Bars",
 	eventDescription: "The gay man shot and killed as he walked to a MARTA station in Decatur was harassed by two men about his sexuality one week before the tragic incident.",
-	eventImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3K-oMAJI_OmvmGs-X7N_-xgQnzuXMX9ip6LwENitVHf4DWQzW"	
+	eventImage: "https://cdn.theatlantic.com/assets/media/img/mt/2018/01/RTS193GB/lead_720_405.jpg?mod=1533691918/900px180"	
 });
-const event1 = new Event({
-	eventTitle: "Scarlet Honolulu",
-	eventDescription: "The gay man shot and killed as he walked to a MARTA station in Decatur was harassed by two men about his sexuality one week before the tragic incident.",
-	eventImage: "http://thebelasco.com/wp-content/uploads/2017/07/8-10-17-LAFC-web.jpg"	
-});
-const event2 = new Event({
-	eventTitle: "Nightlife Guide",
-	eventDescription: "The gay man shot and killed as he walked to a MARTA station in Decatur was harassed by two men about his sexuality one week before the tragic incident.",
-	eventImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp9QIaz1QzajNZWun4ZCAHzfJ4wS3NbqoKifOQtwBxdbqtO0JcRQ"	
-});
-const event3 = new Event({
-	eventTitle: "Man on Man",
-	eventDescription: "The gay man shot and killed as he walked to a MARTA station in Decatur was harassed by two men about his sexuality one week before the tragic incident.",
-	eventImage: "https://echomag.com/wp-content/uploads/2018/09/40484278_2207856729243949_4033326040175607808_o.jpg"	
-});
+
+
 
 const review = new Review({
 	reviewTitle: "Great bar to hang around",
@@ -51,15 +38,13 @@ const review = new Review({
 });
 
 Event.deleteMany({})	
-	.then(() => event.save())
-	.then(() => event1.save())
-	.then(() => event2.save())
-	.then(() => event3.save())	
+	.then(() => event.save())	
 	.then(() => console.log('Successful Save'))
 	
 User.deleteMany({})
 	.then(() => blog.save())
 	.then(() => console.log('Successful Save'))	
+
 Gallery.deleteMany({})
 	.then(() => gallery.save())
 	.then(() => console.log('Successful Save'))

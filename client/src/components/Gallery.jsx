@@ -53,6 +53,12 @@ export default class Gallery extends Component {
 		this.getAllGallerys();
 	};
 
+	toggleGalleryForm = () => {
+		this.setState((state, props) => {
+			return { displayGalleryForm: !state.displayGalleryForm };
+		});
+	};
+
 	handleChange = (e) => {
 		const changeNewGallery = { ...this.state.newGallery };
 		changeNewGallery[e.target.name] = e.target.value;
@@ -65,78 +71,6 @@ export default class Gallery extends Component {
 	};
 	render() {
 		return (
-			// <div>
-			// 	<body class="home page-template page-template-template-home-page page-template-template-home-page-php page page-id-10">
-			// 		<div>
-			// 			<div id="page">
-			// 				<div id="header-bg" />
-			// 				<div id="patern" />
-			// 				<div id="page-view">
-			// 					<header
-			// 						style={{ width: '1000px', marginLeft: 'auto', marginRight: 'auto' }}
-			// 						class="entry-header"
-			// 					>
-			// 						<h1 class="entry-title">Gallery</h1>
-
-			// 						<div class="clear" />
-			// 					</header>
-			// 					<div>
-			// 						{this.state.gallerys.map((gallery) => {
-			// 							return (
-			// 								<div className="row">
-			// 									<aside
-			// 										style={{ width: '1000px', marginLeft: 'auto', marginRight: 'auto' }}
-			// 										id="upcomming-events-10"
-			// 										class="WPlookevents WPlookeventshome widget upcomming-events"
-			// 									>
-			// 										<div
-			// 											class="entry-content"
-			// 											style={{
-			// 												width: '2000px',
-			// 												marginLeft: 'auto',
-			// 												marginRight: 'auto'
-			// 											}}
-			// 										>
-			// 											<article
-			// 												key={gallery._id}
-			// 												style={{ height: '300px' }}
-			// 												class="list-block-item"
-			// 											>
-			// 												<div class="margins">
-			// 													<div class="entry-date">
-			// 														<Link
-			// 															to={`/gallerys/${gallery._id}`}
-			// 															key={gallery._id}
-			// 														>
-			// 															<img
-			// 																style={{ height: '255px', width: '310px' }}
-			// 																src={gallery.galleryImage}
-			// 															/>
-			// 														</Link>
-			// 													</div>
-			// 													{/* <div class="entry-description">
-			// 												<h1 class="entry-head">
-			// 													<a href="">{user.title}</a>
-			// 												</h1>
-			// 												<div class="short-description">
-			// 													<p>{user.description}</p>
-			// 												</div> */}
-			// 													{/* </div> */}
-			// 													<div class="clear" />
-			// 												</div>
-			// 											</article>
-			// 										</div>
-			// 									</aside>
-			// 								</div>
-			// 							);
-			// 						})}
-
-			// 					</div>
-			// 				</div>
-			// 			</div>
-			// 		</div>
-			// 	</body>
-			// </div>
 			<div style={{ background: '#fffdf9', width: '100%', height: '100%' }}>
 				<section id="team">
 					<div class="containers">
@@ -156,178 +90,110 @@ export default class Gallery extends Component {
 							}}
 						>
 							<div class="row">
-								<div class="col profile-pic text-center red seperate">
-									<div class="img-box">
-										<Link to="/gallerypictures/">
-											<img
-												src="https://cdn.theatlantic.com/assets/media/img/mt/2018/01/RTS193GB/lead_720_405.jpg?mod=1533691918"
-												style={{ width: '18.5rem', height: '335px', marginBottom: '10px' }}
-												class="img-responsive"
-											/>
-										</Link>
-									</div>
-									<Card.Title
-										class="text-center"
-										style={{
-											color: 'black',
-											fontWeight: 'bold',
-											marginBottom: '40px',
-											fontSize: '20px'
-										}}
-									>
-										Retrospective: Lucrecia Martel
-									</Card.Title>
-								</div>
-								<div class="col profile-pic text-center red seperate">
-									{/* <Card > */}
-									<div class="img-box">
-										<img
-											src="https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1440,w_2560,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1526152229/180512-cathart-tbilisi-hero_zl4phh"
-											style={{ width: '18.5rem', height: '335px', marginBottom: '10px' }}
-											class="img-responsive"
-										/>
-									</div>
-									<Card.Title
-										class="text-center"
-										style={{
-											color: 'black',
-											fontWeight: 'bold',
-											marginBottom: '40px',
-											fontSize: '20px'
-										}}
-									>
-										Retrospective: Lucrecia Martel
-									</Card.Title>
-
-									{/* </Card> */}
-								</div>
-								<div class="col profile-pic text-center red seperate">
-									<div class="img-box">
-										<img
-											src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/10/12/1444665090823/7c52dec6-fce9-431e-b079-a07d49f6d2ee-2060x1236.jpeg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMTUucG5n&s=fb870168d916031df11593bfe9bdef10"
-											style={{ width: '18.5rem', height: '335px', marginBottom: '10px' }}
-											class="img-responsive"
-										/>
-									</div>
-									<Card.Title
-										class="text-center"
-										style={{
-											color: 'black',
-											fontWeight: 'bold',
-											marginBottom: '40px',
-											fontSize: '20px'
-										}}
-									>
-										Retrospective: Lucrecia Martel
-									</Card.Title>
-								</div>
-								<div class="col profile-pic text-center red seperate">
-									<div class="img-box">
-										<img
-											src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSYi8idP_OKLpSwlW8e3bw4BGfFwRbEKZLdrApFiXmiC4zi-eA"
-											style={{ width: '18.5rem', height: '335px', marginBottom: '10px' }}
-											class="img-responsive"
-										/>
-									</div>
-									<Card.Title
-										class="text-center"
-										style={{
-											color: 'black',
-											fontWeight: 'bold',
-											marginBottom: '40px',
-											fontSize: '20px'
-										}}
-									>
-										Retrospective: Lucrecia Martel
-									</Card.Title>
-								</div>
-							</div>
-
-							<div class="row">
-								<div class="col profile-pic text-center red seperate">
-									<div class="img-box">
-										<img
-											src="https://cdn.theatlantic.com/assets/media/img/mt/2018/01/RTS193GB/lead_720_405.jpg?mod=1533691918"
-											style={{ width: '18.5rem', height: '335px', marginBottom: '10px' }}
-											class="img-responsive"
-										/>
-									</div>
-									<Card.Title
-										class="text-center"
-										style={{
-											color: 'black',
-											fontWeight: 'bold',
-											marginBottom: '40px',
-											fontSize: '20px'
-										}}
-									>
-										Retrospective: Lucrecia Martel
-									</Card.Title>
-								</div>
-								<div class="col profile-pic text-center red seperate">
-									<div class="img-box">
-										<img
-											src="https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1440,w_2560,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1526152229/180512-cathart-tbilisi-hero_zl4phh"
-											style={{ width: '18.5rem', height: '335px', marginBottom: '10px' }}
-											class="img-responsive"
-										/>
-									</div>
-									<Card.Title
-										class="text-center"
-										style={{
-											color: 'black',
-											fontWeight: 'bold',
-											marginBottom: '40px',
-											fontSize: '20px'
-										}}
-									>
-										Retrospective: Lucrecia Martel
-									</Card.Title>
-								</div>
-								<div class="col profile-pic text-center red seperate">
-									<div class="img-box">
-										<img
-											src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/10/12/1444665090823/7c52dec6-fce9-431e-b079-a07d49f6d2ee-2060x1236.jpeg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMTUucG5n&s=fb870168d916031df11593bfe9bdef10"
-											style={{ width: '18.5rem', height: '335px', marginBottom: '10px' }}
-											class="img-responsive"
-										/>
-									</div>
-									<Card.Title
-										class="text-center red"
-										style={{
-											color: 'black',
-											fontWeight: 'bold',
-											marginBottom: '40px',
-											fontSize: '20px'
-										}}
-									>
-										Retrospective: Lucrecia Martel
-									</Card.Title>
-								</div>
-								<div class="col profile-pic text-center red seperate">
-									<div class="img-box">
-										<img
-											src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSYi8idP_OKLpSwlW8e3bw4BGfFwRbEKZLdrApFiXmiC4zi-eA"
-											style={{ width: '18.5rem', height: '335px', marginBottom: '10px' }}
-											class="img-responsive"
-										/>
-									</div>
-									<Card.Title
-										class="text-center"
-										style={{
-											color: 'black',
-											fontWeight: 'bold',
-											marginBottom: '40px',
-											fontSize: '20px'
-										}}
-									>
-										Retrospective: Lucrecia Martel
-									</Card.Title>
-								</div>
+								{this.state.gallerys.map((gallery) => {
+									return (
+										<div class="col profile-pic text-center red seperate">
+											<div class="img-box">
+												<Link to={`/gallerys/${gallery._id}`} key={gallery._id}>
+													<img
+														src={gallery.galleryImage}
+														style={{
+															width: '18.5rem',
+															height: '335px',
+															marginBottom: '10px'
+														}}
+														class="img-responsive"
+													/>
+												</Link>
+											</div>
+											<Card.Title
+												class="text-center"
+												style={{
+													color: 'black',
+													fontWeight: 'bold',
+													marginBottom: '40px',
+													fontSize: '20px'
+												}}
+											>
+												{gallery.galleryTitle}
+											</Card.Title>
+										</div>
+									);
+								})}
 							</div>
 						</Container>
+						<div style={{ marginTop: '80px' }}>
+							<button onClick={this.toggleGalleryForm} class="bus">
+								Add Gallery Pictures
+							</button>
+						</div>
 					</div>
 				</section>
+				<div class="container">
+					{this.state.displayGalleryForm ? (
+						<div class="container">
+							<form
+								style={{
+									marginTop: '10px',
+									marginBottom: '60px',
+									display: 'block',
+									justifyContent: 'center'
+								}}
+								onSubmit={this.createGallery}
+								className="col text-center"
+							>
+								<div className="col ">
+									<div className="col ">
+										<label htmlFor="name" style={{ paddingRight: '30px' }}>
+											Gallery Name{' '}
+										</label>
+
+										<input
+											style={{ height: '50px', width: '18rem', marginBottom: '10px' }}
+											className=""
+											id="galleryImage"
+											type="text"
+											name="galleryImage"
+											onChange={this.handleChange}
+											value={this.state.newGallery.galleryImage}
+										/>
+									</div>
+									<div className="col text-center">
+										<label htmlFor="size" style={{ paddingRight: '30px' }}>
+											Title{' '}
+										</label>
+										<input
+											style={{ height: '50px', width: '18rem', marginBottom: '10px' }}
+											className=""
+											id="galleryTitle"
+											type="text"
+											name="galleryTitle"
+											onChange={this.handleChange}
+											value={this.state.newGallery.galleryTitle}
+										/>
+									</div>
+									<div className="col ">
+										<label htmlFor="image" style={{ paddingRight: '30px' }}>
+											Description{' '}
+										</label>
+										<input
+											style={{ height: '50px', width: '18rem' }}
+											className=""
+											id="galleryDescription"
+											type="text"
+											name="galleryDescription"
+											onChange={this.handleChange}
+											value={this.state.newGallery.galleryDescription}
+										/>
+									</div>
+								</div>
+								<div className="text-center" style={{ marginTop: '40px' }}>
+									<button className="text-center bus">Submit</button>
+								</div>
+							</form>
+						</div>
+					) : null}
+				</div>
 			</div>
 		);
 	}

@@ -11,19 +11,13 @@ import NewsPage from './components/NewsPage';
 import Blogs from './components/Blogs';
 import BlogsPage from './components/BlogsPage';
 import Events from './components/Events';
-import EventPage from './components/EventPage';
+import EventShowPage from './components/EventShowPage';
 import Reviews from './components/Reviews';
-// import About from './components/About';
-// import DJ from './components/DJ';
 import Gallery from './components/Gallery';
-import GalleryPictures from './components/GalleryPictures';
+
 import GalleryShowPage from './components/GalleryShowPage';
 import ReviewShowPage from './components/ReviewShowPage';
 import ReviewsPage from './components/ReviewsPage';
-import { Form } from 'react-bootstrap';
-import { Button } from 'react-bootstrap';
-import { Jumbotron } from 'react-bootstrap';
-import { FormControl } from 'react-bootstrap';
 
 class App extends Component {
 	render() {
@@ -105,22 +99,20 @@ class App extends Component {
 
 					<Switch>
 						<Route exact path="/" component={Home} />
-
+						<Route exact path="/events/" component={Events} />
+						<Route exact path="/events/:eventId/" component={EventShowPage} />
 						<Route exact path="/gallerys/:galleryId/" component={GalleryShowPage} />
-						<Route exact path="/reviews/:reviewId/" component={ReviewShowPage} />
+						{/* <Route exact path="/reviews/:reviewId/" component={ReviewShowPage} /> */}
 						<Route exact path="/reviewspage/" component={ReviewsPage} />
 						<Route exact path="/contact/" component={Contact} />
 						<Route exact path="/gallery/" component={Gallery} />
-						<Route exact path="/gallerypictures/" component={GalleryPictures} />
+						{/* <Route exact path="/gallerypictures/" component={GalleryPictures} /> */}
 						<Route exact path="/news/" component={News} />
 						<Route exact path="/newspage/" component={NewsPage} />
-						<Route exact path="/events/" component={Events} />
-						<Route exact path="/eventpage/" component={EventPage} />
+
 						<Route exact path="/blogs/" component={Blogs} />
 						<Route exact path="/blogspage/" component={BlogsPage} />
 						<Route exact path="/reviews/" component={Reviews} />
-						{/* <Route exact path="/about/" component={About} /> */}
-						{/* <Route exact path="/dj/" component={DJ} /> */}
 					</Switch>
 					<section class="footer">
 						<div style={{ paddingTop: '80px', paddingBottom: '60px' }} class="container tex-center">

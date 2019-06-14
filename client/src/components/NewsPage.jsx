@@ -11,130 +11,64 @@ import { Link } from 'react-router-dom';
 import { CardGroup } from 'react-bootstrap';
 
 export default class NewsPage extends Component {
-	state = {
-		events: [],
-		newEvent: {
-			_id: '',
-			eventTitle: '',
-			eventDescription: '',
-			eventImage: ''
-		},
-		displayEventForm: false
-	};
+	// state = {
+	// 	events: [],
+	// 	newEvent: {
+	// 		_id: '',
+	// 		eventTitle: '',
+	// 		eventDescription: '',
+	// 		eventImage: ''
+	// 	},
+	// 	displayEventForm: false
+	// };
 
-	componentDidMount = () => {
-		this.getAllEvents();
-	};
+	// componentDidMount = () => {
+	// 	this.getAllEvents();
+	// };
 
-	getAllEvents = () => {
-		axios.get('/api/events/').then((res) => {
-			this.setState({ events: res.data });
-		});
-	};
+	// getAllEvents = () => {
+	// 	axios.get('/api/events/').then((res) => {
+	// 		this.setState({ events: res.data });
+	// 	});
+	// };
 
-	createEvent = (e) => {
-		axios
-			.post('/api/events/', {
-				eventTitle: this.state.newEvent.eventTitle,
-				eventDescription: this.state.newEvent.eventDescription,
-				eventImage: this.state.newEvent.eventImage
-			})
-			.then((res) => {
-				const eventsList = [ this.state.events ];
-				eventsList.unshift(res.data);
-				this.setState({
-					newEvent: {
-						eventTitle: '',
-						eventDescription: '',
-						eventImage: ''
-					},
-					displayEventForm: false,
-					events: eventsList
-				});
-			});
-		this.getAllEvents();
-	};
+	// createEvent = (e) => {
+	// 	axios
+	// 		.post('/api/events/', {
+	// 			eventTitle: this.state.newEvent.eventTitle,
+	// 			eventDescription: this.state.newEvent.eventDescription,
+	// 			eventImage: this.state.newEvent.eventImage
+	// 		})
+	// 		.then((res) => {
+	// 			const eventsList = [ this.state.events ];
+	// 			eventsList.unshift(res.data);
+	// 			this.setState({
+	// 				newEvent: {
+	// 					eventTitle: '',
+	// 					eventDescription: '',
+	// 					eventImage: ''
+	// 				},
+	// 				displayEventForm: false,
+	// 				events: eventsList
+	// 			});
+	// 		});
+	// 	this.getAllEvents();
+	// };
 
-	handleChange = (e) => {
-		const changeNewEvent = { ...this.state.newEvent };
-		changeNewEvent[e.target.name] = e.target.value;
-		this.setState({ newEvent: changeNewEvent });
-	};
+	// handleChange = (e) => {
+	// 	const changeNewEvent = { ...this.state.newEvent };
+	// 	changeNewEvent[e.target.name] = e.target.value;
+	// 	this.setState({ newEvent: changeNewEvent });
+	// };
 
-	handleSignUp = (e) => {
-		e.preventDefault();
-		this.createEvent();
-	};
+	// handleSignUp = (e) => {
+	// 	e.preventDefault();
+	// 	this.createEvent();
+	// };
 
 	render() {
 		return (
-			// <div style={{ background: '#fffdf9', width: '100%', height: '100%', marginTop: '40px' }}>
-			// 	<section class="fashion-Trends">
-			// 		<div class="container">
-			// 	{/* <aside
-			// 		style={{
-			// 			width: '1150px',
-			// 			marginLeft: 'auto',
-			// 			marginRight: 'auto'
-			// 		}}
-			// 		id="upcomming-events-10"
-			// 		class="WPlookevents WPlookeventshome widget upcomming-events"
-			// 	> */}
-			// 		<header class="entry-header">
-			// 			<h1 class="entry-title">Events</h1>
-						
-					
-			// 		</header>
-
-			// 	{/* </aside>  */}
-
-			// 	<div style={{
-			// 			marginBottom: '30px'
-				
-			// 		}} className="row">
-
-			// 			{this.state.events.map((event) => {
-			// 				return (
-			// 					<div
-			// 					className="row"
-			// 					style={{
-			// 						marginLeft: 'auto',
-			// 						marginRight: 'auto',
-			// 						marginBottom: '30px',
-			// 						display: 'block'
-			// 					}}
-			// 				>
-			// 					<CardGroup>
-			// 						<Card
-			// 							key={event._id}
-			// 							className="text-center"
-			// 							style={{
-			// 								width: '19rem',
-			// 								marginLeft: '30px',
-			// 								marginRight: '30px'
-			// 							}}
-			// 						>
-			// 							<Link to={`/events/${event._id}`} key={event._id}>
-			// 								<Card.Img style={{ height: '210px', width: '300px' }}variant="top" src={event.eventImage} />
-			// 							</Link>
-			// 							<Card.Body>
-			// 								<Card.Title style={{ color: 'black' }}>{event.eventTitle}</Card.Title>
-			// 								<Card.Text style={{ color: 'black' }}>{event.eventDescription}</Card.Text>
-			// 							</Card.Body>
-			// 						</Card>
-			// 					</CardGroup>
-			// 				</div>
-			// 										);
-			// 		})}
-						
-
 			
-				
-			// </div> 
-			// </div>
-		
-			// 	</section>
-			// 	</div>
 				<div style={{ background: '#fffdf9', width: '100%', height: '100%' }}>
 						<section id="team">
 						
