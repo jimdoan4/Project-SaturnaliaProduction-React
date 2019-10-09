@@ -9,7 +9,15 @@ body {
   overflow-x: hidden;
 }
 
-/*--- Nav Scrolling Offset --*/
+.row {
+  margin: initial !important;
+}
+
+.containers {
+  margin: auto 50px;
+}
+
+/* NAVIGATION */
 .offset:before {
   height: 4rem;
   margin-top: -4rem;
@@ -17,13 +25,76 @@ body {
   display: block;
 }
 
-/*============= TEAM SECTION FIXED BG IMG LIGHT =============*/
-
-#fixed-2 {
-  background-image: url('http://www.allwhitebackground.com/images/2/2270.jpg');
-  z-index: -1;
+.nav-link:hover {
+  background: #ba0e0e !important;
+  color: white !important;
 }
 
+
+.navbar-toggler {
+  border: none !important;
+  outline: none !important;
+  padding: 0 !important;
+  margin-top: 10px;
+
+}
+
+.navbar-toggler .fa {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.main-title {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 27px;
+  text-decoration: none !important;
+  padding: 1px;
+  padding-top: 5px;
+  color: #ba0e0e;
+  font-weight: bold;
+  display: block;
+  margin: auto 0;
+  text-align: center;
+  width: 100%;
+  right: 50%;
+  letter-spacing: 1px;
+
+}
+
+.main-title:hover {
+  color: #ba0e0e !important;
+}
+
+
+/* HOME SECTION */
+.home-header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.1)),
+    url(https://vignette.wikia.nocookie.net/911ffa3c-57ba-424b-8d69-3ae3fe014aba/scale-to-width-down/800);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner-text {
+  font-size: 36px;
+  color: #fff;
+  padding-left: 4%;
+  padding-top: 220px;
+  padding-bottom: 220px;
+}
+
+.banner-text .btn-primary {
+  background-image: linear-gradient(to right, #3636f3, #be43f1);
+  border: none !important;
+  box-shadow: none !important;
+  font-size: 12px;
+  padding: 15px 30px;
+  margin-top: 10px;
+}
+
+
+/*============= CARD=============*/
 .light {
   background-color: rgba(255, 255, 255, .85);
   padding: 3rem 2rem 2rem;
@@ -71,219 +142,7 @@ body {
   color: #6c757d !important;
 }
 
-
-.gallery {
-  width: 286px;
-  transition: 1s;
-}
-
-.gallery:hover {
-  transform: scale(1.1);
-
-}
-
-.sexy {
-  background: #fcfcfc !important;
-}
-
-.gallery img {
-  width: 230px;
-  padding: 5px;
-  filter: grayscale(100%);
-  transition: 1s;
-}
-
-.gallery img:hover {
-  filter: grayscale(0);
-  transform: scale(1.1);
-
-}
-
-.header {
-  background: white;
-  width: 100%;
-  margin: auto 0;
-  letter-spacing: 1.4px;
-  border-color: black !important;
-  -webkit-box-shadow: 0px 0px 3px 2px rgba(20, 20, 31, 1);
-  -moz-box-shadow: 0px 0px 3px 2px rgba(20, 20, 31, 1);
-  box-shadow: 0px 0px 20px 3px #d6d6d6;
-}
-
-
-/* .seperate {
-  margin: 6px 8px 19px 8px!important;
-} */
-
-.red {
-  background: #efefef;
-  -webkit-box-shadow: 0px 0px 3px 2px rgba(20, 20, 31, 1);
-  -moz-box-shadow: 0px 0px 3px 2px rgba(20, 20, 31, 1);
-  box-shadow: 0px 0px 20px 3px #d6d6d6;
-}
-
-.red:hover {
-  background: #ba0e0e !important;
-  color: white !important;
-  opacity: .98;
-}
-
-.reds:hover {
-
-  color: white !important;
-}
-
-.main-title {
-  text-align: center;
-  margin-top: 10px;
-  font-size: 27px;
-  text-decoration: none !important;
-  padding: 1px;
-  padding-top: 5px;
-  color: #ba0e0e;
-  font-weight: bold;
-  display: block;
-  margin: auto 0;
-  text-align: center;
-  width: 100%;
-  right: 50%;
-  letter-spacing: 1px;
-
-}
-
-.main-title:hover {
-  color: #ba0e0e !important;
-
-}
-
-
-.nav-link:hover {
-  background: #ba0e0e !important;
-  color: white !important;
-}
-
-
-
-.navbar-toggler {
-  border: none !important;
-  outline: none !important;
-  padding: 0 !important;
-  margin-top: 10px;
-
-}
-
-.navbar-toggler .fa {
-  font-size: 30px;
-  cursor: pointer;
-}
-
-
-.row {
-  margin: initial !important;
-}
-
-.containers {
-  margin: auto 50px;
-
-}
-
-/*--------------footer-------------*/
-
-.footer {
-  margin-top: 150px;
-  background: #efefef;
-  display: block;
-  color: black;
-  -webkit-box-shadow: 0px 0px 3px 2px rgba(20, 20, 31, 1);
-  -moz-box-shadow: 0px 0px 3px 2px rgba(20, 20, 31, 1);
-  box-shadow: 0px 0px 20px 3px #d6d6d6;
-}
-
-
-.footer-img img {
-  width: 75px;
-  padding: 5px;
-  cursor: pointer;
-}
-
-.app-download img {
-  width: 200px;
-}
-
-.footer h5 {
-  margin-bottom: 50px;
-}
-
-.footer h5:before {
-  content: '';
-  width: 70px;
-  height: 1px;
-  top: 75px;
-  position: absolute;
-}
-
-.footer-icons {
-  text-align: right;
-}
-
-.footer-icons .fa {
-  margin: 0 10px auto;
-  font-size: 20px;
-  cursor: pointer;
-
-}
-
-.copyright .fa {
-  color: red;
-}
-
-.foot {
-  text-align: left;
-  color: white !important;
-
-  font-size: 22px;
-  font-family: 'Hammersmith One', sans-serif;
-}
-
-/*---------------Media Query---------------*/
-
-
-@media only screen and (max-width: 900px) {
-  .banner-img {
-    margin: 40px auto;
-    width: 80%;
-  }
-
-  .banner-title {
-    top: 150px;
-    left: 50%;
-    transform: translate(-50%);
-  }
-
-  .banner-title h1 {
-    font-size: 16px;
-    padding: 5px;
-  }
-
-  .offer img {
-    margin-top: 20px !important;
-    margin-bottom: 0px !important;
-  }
-
-  .section-Title h1 {
-    font-size: 26px;
-  }
-
-  .copyright {
-    text-align: center;
-  }
-
-  .footer-icons {
-    text-align: center;
-  }
-}
-
-/*___________Team Members-----------*/
+/* SECTIONS */
 #team {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -298,7 +157,6 @@ h1 {
   font-size: 32px;
   font-family: 'Hammersmith One', sans-serif;
 
-
 }
 
 h1::after {
@@ -308,36 +166,6 @@ h1::after {
   height: 1.5px;
   width: 100%;
 }
-
-
-
-/* 1st section */
-.home-header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.1)),
-    url(https://vignette.wikia.nocookie.net/911ffa3c-57ba-424b-8d69-3ae3fe014aba/scale-to-width-down/800);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.banner-text {
-  font-size: 36px;
-  color: #fff;
-  padding-left: 4%;
-  padding-top: 220px;
-  padding-bottom: 220px;
-}
-
-.banner-text .btn-primary {
-  background-image: linear-gradient(to right, #3636f3, #be43f1);
-  border: none !important;
-  box-shadow: none !important;
-  font-size: 12px;
-  padding: 15px 30px;
-  margin-top: 10px;
-}
-
-/*----------fashion-Trends--------------*/
 
 .fashion-Trends {
   background-color: white;
@@ -395,32 +223,70 @@ h1::after {
 }
 
 
-/*-------Slider------*/
-/* #slider {
+/* GALLERY SECTION */
+.gallery {
+  width: 286px;
+  transition: 1s;
+}
+
+.gallery:hover {
+  transform: scale(1.1);
+
+}
+
+.gallery img {
+  width: 230px;
+  padding: 5px;
+  filter: grayscale(100%);
+  transition: 1s;
+}
+
+.gallery img:hover {
+  filter: grayscale(0);
+  transform: scale(1.1);
+
+}
+
+.header {
+  background: white;
   width: 100%;
-  background-position: center;
-  background-size: cover;
+  margin: auto 0;
+  letter-spacing: 1.4px;
+  border-color: black !important;
+  -webkit-box-shadow: 0px 0px 3px 2px rgba(20, 20, 31, 1);
+  -moz-box-shadow: 0px 0px 3px 2px rgba(20, 20, 31, 1);
+  box-shadow: 0px 0px 20px 3px #d6d6d6;
 }
 
-.carousel-caption {
-  top: 50%;
-  transform: translateY(-50%);
-  bottom: initial !important;
+/* BUTTONS */
+.submit-button {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  justify-content: center;
+  margin-right: 140px;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-top: 1px;
+  margin-bottom: 20px;
 }
 
-.carousel-caption h5 {
-  color: #fff;
-  font-size: 42px;
+.red {
+  background: #efefef;
+  -webkit-box-shadow: 0px 0px 3px 2px rgba(20, 20, 31, 1);
+  -moz-box-shadow: 0px 0px 3px 2px rgba(20, 20, 31, 1);
+  box-shadow: 0px 0px 20px 3px #d6d6d6;
 }
 
-.sec2 {
-  margin: auto 200px;
-  font-weight: bold;
-  font-family: 'Hammersmith One', sans-serif;
-  font-size: 28px;
-  padding-bottom: 18px;
-  padding-top: 16px;
-} */
+.red:hover {
+  background: #ba0e0e !important;
+  color: white !important;
+  opacity: .98;
+}
+
+.reds:hover {
+  color: white !important;
+}
 
 button.bus {
   background-color: #ba0e0e !important;
@@ -437,10 +303,79 @@ button.bus {
   color: black !important;
 }
 
-.grays:hover {
-  background: #eaecef;
+
+/*--------------FOOTER-------------*/
+.footer {
+  margin-top: 150px;
+  background: #efefef;
+  display: block;
+  color: black;
+  -webkit-box-shadow: 0px 0px 3px 2px rgba(20, 20, 31, 1);
+  -moz-box-shadow: 0px 0px 3px 2px rgba(20, 20, 31, 1);
+  box-shadow: 0px 0px 20px 3px #d6d6d6;
 }
 
+.footer-img img {
+  width: 75px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.app-download img {
+  width: 200px;
+}
+
+.footer h5 {
+  margin-bottom: 50px;
+}
+
+.footer h5:before {
+  content: '';
+  width: 70px;
+  height: 1px;
+  top: 75px;
+  position: absolute;
+}
+
+.footer-icons .fa {
+  margin: 0 10px auto;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.copyright .fa {
+  color: red;
+}
+
+.foot {
+  text-align: left;
+  color: white !important;
+  font-size: 22px;
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+/* MEDIA QUERY */
+@media only screen and (max-width: 900px) {
+  .banner-img {
+    margin: 40px auto;
+    width: 80%;
+  }
+
+  .banner-title {
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .banner-title h1 {
+    font-size: 16px;
+    padding: 5px;
+  }
+
+  .section-Title h1 {
+    font-size: 26px;
+  }
+}
 
 
 @media (min-width: 768px) {

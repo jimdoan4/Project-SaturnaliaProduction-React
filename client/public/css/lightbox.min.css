@@ -1,4 +1,4 @@
-/* @import url(https://fonts.googleapis.com/css?family=Varela+Round);
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
 
 html,
 body {
@@ -126,4 +126,4 @@ input#img-4:checked~.nav-dots label#img-dot-4,
 input#img-5:checked~.nav-dots label#img-dot-5,
 input#img-6:checked~.nav-dots label#img-dot-6 {
     background: rgba(0, 0, 0, 0.8);
-} */
+} 

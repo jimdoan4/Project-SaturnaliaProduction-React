@@ -11,104 +11,14 @@ import { Link } from 'react-router-dom';
 export default class News extends Component {
 	render() {
 		return (
-			<div>
-				{/* <div id="slider">
-            <div id="headerSlider" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#headerSlider" data-slide-to="0" class="active"></li>
-                    <li data-target="#headerSlider" data-slide-to="1"></li>
-                    <li data-target="#headerSlider" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img style= {{width: '100%', height: '550px'}} class="d-block img-fluid" src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"/>
-                        <div class="carousel-caption">
-                            <h5>How To Make A Website</h5>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img style= {{width: '100%', height: '550px'}} class="d-block img-fluid" src="https://images.unsplash.com/photo-1486556396467-d83d2b23514b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"/>
-                        <div class="carousel-caption">
-                            <h5>Create Responsive Website</h5>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img style= {{width: '100%', height: '550px'}} class="d-block img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Wikipedia_space_ibiza%2803%29.jpg/220px-Wikipedia_space_ibiza%2803%29.jpg"/>
-                        <div class="carousel-caption">
-                            <h5>Business Website Design</h5>
-                        </div>
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#headerSlider" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#headerSlider" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-        </div> */}
-
 				<div style={{ background: '#fffdf9', width: '100%', height: '100%' }}>
 					<section id="team">
 						<div class="containers">
 							<h1>News</h1>
-
-							{/* <div id="slider">
-								<div id="headerSlider" class="carousel slide" data-ride="carousel">
-									<ol class="carousel-indicators">
-										<li data-target="#headerSlider" data-slide-to="0" class="active" />
-										<li data-target="#headerSlider" data-slide-to="1" />
-										<li data-target="#headerSlider" data-slide-to="2" />
-									</ol>
-									<div class="carousel-inner">
-										<div class="carousel-item active">
-											<img
-												style={{ width: '100%', height: '550px' }}
-												class="d-block img-fluid"
-												src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
-											/>
-											<div class="carousel-caption">
-												<h5>How To Make A Website</h5>
-											</div>
-										</div>
-										<div class="carousel-item">
-											<img
-												style={{ width: '100%', height: '550px' }}
-												class="d-block img-fluid"
-												src="https://images.unsplash.com/photo-1486556396467-d83d2b23514b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
-											/>
-											<div class="carousel-caption">
-												<h5>Create Responsive Website</h5>
-											</div>
-										</div>
-									</div>
-									<a
-										class="carousel-control-prev"
-										href="#headerSlider"
-										role="button"
-										data-slide="prev"
-									>
-										<span class="carousel-control-prev-icon" aria-hidden="true" />
-										<span class="sr-only">Previous</span>
-									</a>
-									<a
-										class="carousel-control-next"
-										href="#headerSlider"
-										role="button"
-										data-slide="next"
-									>
-										<span class="carousel-control-next-icon" aria-hidden="true" />
-										<span class="sr-only">Next</span>
-									</a>
-								</div>
-							</div> */}
 <br/>
 <br/>
 							<Container
-								class='text-center' style={{ background: '#fffdf9', width: '100%', height: '100%', margin: '0 auto', display: 'block', justifyContent: 'center' }}
-							>
+								class='text-center'>
 								<div class="row">
 									
 										<div class=" col profile-pic text-center img-box trending-img">
@@ -125,8 +35,6 @@ export default class News extends Component {
 												<div class="overlay" />
 											</div>
 										
-									
-									
 										<div class="col profile-pic text-center img-box trending-img">
 										
 												<img
@@ -139,10 +47,7 @@ export default class News extends Component {
 									</button>
 												<div class="overlay" />
 											</div>
-										
-									
-									
-									
+		
 										<div class="col profile-pic text-center img-box trending-img">
 										
 												<img
@@ -156,10 +61,8 @@ export default class News extends Component {
 												<div class="overlay" />
 											</div>
 										
-									
-									
-									
-										<div class="col profile-pic text-center img-box trending-img">
+				
+										<div className="col profile-pic text-center img-box trending-img">
 										
 												<img
 													src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSYi8idP_OKLpSwlW8e3bw4BGfFwRbEKZLdrApFiXmiC4zi-eA"
@@ -177,7 +80,6 @@ export default class News extends Component {
 						</div>
 					</section>
 				</div>
-			</div>
 		);
 	}
 }
