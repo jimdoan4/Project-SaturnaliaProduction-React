@@ -76,35 +76,26 @@ export default class GalleryPage extends Component {
       return <Redirect to={`/gallery/`} />;
     }
     return (
-      <div style={{ background: "#fffdf9", width: "100%", height: "100%" }}>
+      <div>
         <section id="team">
-          <div class="containers">
+          <div className="containers">
             <h1>
-              <p class="text-center">Atlanta Best Night Life</p>
+              <p className="text-center">Atlanta Best Night Life</p>
             </h1>
             <br />
             <Container
-              class="text-center"
-              fluid
-              style={{
-                background: "#fffdf9",
-                width: "100%",
-                height: "100%",
-                display: "block",
-                margin: "auto 0"
-              }}
-            >
-              <div class="row">
-                <div class="col profile-pic text-center">
-                  <div class="img-box">
+              className="text-center">
+              <div className="row">
+                <div className="col profile-pic text-center">
+                  <div className="img-box">
                     <img
                       src={this.state.gallery.galleryImage}
                       style={{ width: "50rem", marginBottom: "30px" }}
-                      class="img-responsive"
+                      className="img-responsive"
                     />
                   </div>
                   <Card.Title
-                    class="text-center"
+                    className="text-center"
                     style={{
                       color: "black",
                       fontWeight: "bold",
@@ -114,7 +105,7 @@ export default class GalleryPage extends Component {
                   >
                     {this.state.gallery.galleryTitle}
                   </Card.Title>
-                  <Card.Text class="text-center">
+                  <Card.Text className="text-center">
                     {this.state.gallery.galleryDescription}
                   </Card.Text>
                 </div>
@@ -122,76 +113,76 @@ export default class GalleryPage extends Component {
 
               <div
                 id="carousel-example-2"
-                class="carousel slide carousel-fade z-depth-1-half"
+                className="carousel slide carousel-fade z-depth-1-half"
                 data-ride="carousel"
               >
-                <ol class="carousel-indicators">
+                <ol className="carousel-indicators">
                   <li
                     data-target="#carousel-example-2"
                     data-slide-to="0"
-                    class="active"
+                    className="active"
                   ></li>
                   <li data-target="#carousel-example-2" data-slide-to="1"></li>
                   <li data-target="#carousel-example-2" data-slide-to="2"></li>
                 </ol>
 
-                <div class="carousel-inner" role="listbox">
-                  <div class="carousel-item active">
-                    <div class="view">
+                <div className="carousel-inner" role="listbox">
+                  <div className="carousel-item active">
+                    <div className="view">
                       <img
-                        class="d-block w-100"
+                        className="d-block w-100"
                         src={this.state.gallery.galleryImageTwo}
                         height="500px"
                         alt="First slide"
                       />
-                      <div class="mask rgba-black-light"></div>
+                      <div className="mask rgba-black-light"></div>
                     </div>
-                    <div class="carousel-caption">
-                      <h3 class="h3-responsive">New Year Celebration 2019</h3>
+                    <div className="carousel-caption">
+                      <h3 className="h3-responsive">New Year Celebration 2019</h3>
                       <p>01/01/2018</p>
                     </div>
                   </div>
 
-                  <div class="carousel-item">
-                    <div class="view">
+                  <div className="carousel-item">
+                    <div className="view">
                       <img
-                        class="d-block w-100"
+                        className="d-block w-100"
                         src={this.state.gallery.galleryImage}
                         height="500px"
                         alt="Second slide"
                       />
-                      <div class="mask rgba-black-light"></div>
+                      <div className="mask rgba-black-light"></div>
                     </div>
-                    <div class="carousel-caption">
-                      <h3 class="h3-responsive">Channeling Inner Energy</h3>
+                    <div className="carousel-caption">
+                      <h3 className="h3-responsive">Channeling Inner Energy</h3>
                       <p>05/01/2018</p>
                     </div>
                   </div>
                 </div>
 
                 <a
-                  class="carousel-control-prev"
+                  className="carousel-control-prev"
                   href="#carousel-example-2"
                   role="button"
                   data-slide="prev"
                 >
                   <span
-                    class="carousel-control-prev-icon"
+                    className="carousel-control-prev-icon"
                     aria-hidden="true"
                   ></span>
-                  <span class="sr-only">Previous</span>
+                  <span className="sr-only">Previous</span>
                 </a>
                 <a
-                  class="carousel-control-next"
+                  className="carousel-control-next"
                   href="#carousel-example-2"
                   role="button"
                   data-slide="next"
                 >
                   <span
-                    class="carousel-control-next-icon"
+                    className="carousel-control-next-icon"
                     aria-hidden="true"
                   ></span>
-                  <span class="sr-only">Next</span>
+                  <span className="sr-only">Next</span>
                 </a>
               </div>
             </Container>

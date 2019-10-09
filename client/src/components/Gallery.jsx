@@ -69,19 +69,19 @@ export default class Gallery extends Component {
     return (
       <div>
         <section id="team">
-          <div class="container">
+          <div className="container">
             <h1>Gallery</h1>
             <br />
             <br />
 
             <Container
-              class="text-center"
+              className="text-center"
             >
-              <div class="row">
+              <div className="row">
                 {this.state.gallerys.map(gallery => {
                   return (
-                    <div class="col profile-pic text-center">
-                      <div class="img-box">
+                    <div className="col profile-pic text-center">
+                      <div className="img-box">
                         <Link to={`/gallerys/${gallery._id}`} key={gallery._id}>
                           <img
                             src={gallery.galleryImage}
@@ -90,12 +90,12 @@ export default class Gallery extends Component {
                               height: "335px",
                               marginBottom: "10px"
                             }}
-                            class="img-responsive"
+                            className="img-responsive"
                           />
                         </Link>
                       </div>
                       <Card.Title
-                        class="text-center"
+                        className="text-center"
                         style={{
                           color: "black",
                           fontWeight: "bold",
@@ -111,15 +111,15 @@ export default class Gallery extends Component {
               </div>
             </Container>
             <div style={{ marginTop: "80px" }}>
-              <button onClick={this.toggleGalleryForm} class="bus">
+              <button onClick={this.toggleGalleryForm} className="bus">
                 Add Gallery Pictures
               </button>
             </div>
           </div>
         </section>
-        <div class="container">
+        <div className="container">
           {this.state.displayGalleryForm ? (
-            <div class="container">
+            <div className="container">
 
 			<Form className="jumbotron" onSubmit={this.createGallery}>
               <Form.Group controlId="exampleForm.ControlInput1">

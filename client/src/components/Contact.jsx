@@ -7,12 +7,12 @@ import { ListGroup } from "react-bootstrap";
 export default class Contact extends Component {
   render() {
     return (
-      <div style={{ background: "#fffdf9", width: "100%", height: "100%" }}>
+      <div>
         <section id="team">
-          <div class="containers">
+          <div className="containers">
             <h1>About SATURNALIA PRODUCTIONS</h1>
             <br />
-            <p class="text-center">
+            <p className="text-center">
               Aliquam tempus maximus magna, et pellentesque nisi viverra porta.
               Proin sodales tellus id tincidunt egestas. Nulla laoreet orci non
               mi maximus, vel tristique nunc efficitur. Phasellus et dolor
@@ -21,9 +21,9 @@ export default class Contact extends Component {
               eleifend mauris elementum et.
             </p>
             <br />
-            <div class="container">
-              <div class="row">
-                <div class="col text-center">
+            <div className="container">
+              <div className="row">
+                <div className="col text-center">
                   <Jumbotron>
                     <Card.Header style={{ color: "black" }}>
                       General Enquiries
@@ -41,7 +41,7 @@ export default class Contact extends Component {
                     </ListGroup>
                   </Jumbotron>
                 </div>
-                <div class="col text-center">
+                <div className="col text-center">
                   <Jumbotron>
                     <Card.Header style={{ color: "black" }}>
                       Social Media

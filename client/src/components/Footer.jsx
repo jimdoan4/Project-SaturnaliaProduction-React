@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import { Nav } from "react-bootstrap";
+
 
 export default class Footer extends Component {
   render() {
@@ -9,15 +8,13 @@ export default class Footer extends Component {
          <section class="footer">
             <div
               style={{ paddingTop: "80px", paddingBottom: "60px" }}
-              class="container tex-center"
-            >
-              <div class="row">
-                <div class="col-md-4 text-center">
+              className="container tex-center">
+              <div className="row">
+                <div className="col-md-4 text-center">
                   <h2
-                    class="text-center "
+                    className="text-center "
                     style={{
                       color: "black",
-                      backgroundColor: "",
                       fontSize: "19px"
                     }}
                   >
@@ -28,12 +25,11 @@ export default class Footer extends Component {
                   <p>Return Policy</p>
                 </div>
 
-                <div class="col-md-4 text-center">
+                <div className="col-md-4 text-center">
                   <h2
-                    class="text-center "
+                    className="text-center "
                     style={{
                       color: "black",
-                      backgroundColor: "",
                       fontSize: "19px"
                     }}
                   >
@@ -43,26 +39,25 @@ export default class Footer extends Component {
                   <p>Contact Us</p>
                   <p>Affiliate</p>
                 </div>
-                <div class="col-md-4 text-center">
+                <div className="col-md-4 text-center">
                   <h2
-                    class="text-center "
+                    className="text-center "
                     style={{
                       color: "black",
-                      backgroundColor: "",
                       fontSize: "19px"
                     }}
                   >
                     Follow Us On
                   </h2>
                   <p>
-                    <i class="fa fa-facebook-official" /> Facebook
+                    <i className="fa fa-facebook-official" /> Facebook
                   </p>
                   <p>
-                    <i class="fa fa-youtube-play" /> YouTube
+                    <i className="fa fa-youtube-play" /> YouTube
                   </p>
 
                   <p>
-                    <i class="fa fa-twitter" /> Twitter
+                    <i className="fa fa-twitter" /> Twitter
                   </p>
                 </div>
               </div>

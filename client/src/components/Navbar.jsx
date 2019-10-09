@@ -6,20 +6,20 @@ export default class Navbar extends Component {
   render() {
     return (
       <div>
-        <section class="headers text-center">
-          <nav class="navbar navbar-expand-lg navbar-light text-center">
-            <h5 class="main-title text-center">
-              <Link class="main-title text-center" to="/">
+        <section className="headers text-center">
+          <nav className="navbar navbar-expand-lg navbar-light text-center">
+            <h5 className="main-title text-center">
+              <Link className="main-title text-center" to="/">
                 SATURNALIA PRODUCTIONS
               </Link>
             </h5>
           </nav>
         </section>
 
-        <section class="header text-center">
-          <nav class="navbar navbar-expand-lg navbar-light text-center">
+        <section className="header text-center">
+          <nav className="navbar navbar-expand-lg navbar-light text-center">
             <button
-              class="navbar-toggler"
+              className="navbar-toggler"
               type="button"
               data-toggle="collapse"
               data-target="#navbarNav"
@@ -27,55 +27,55 @@ export default class Navbar extends Component {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <i class="fa fa-bars" />
+              <i className="fa fa-bars" />
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav text=-center">
-                <li class="nav-item">
+            <div className="collapse navbar-collapse" id="navbarNav">
+              <ul className="navbar-nav text=-center">
+                <li className="nav-item">
                   <a
                     style={{ color: "white", backgroundColor: "#ba0e0e" }}
-                    class="nav-link"
+                    className="nav-link"
                     href="/"
                   >
                     HOME
                   </a>
                 </li>
 
-                <li class="nav-item">
+                <li className="nav-item">
                   <a
                     style={{ color: "black" }}
-                    class="nav-link"
+                    className="nav-link"
                     href="/events/"
                   >
                     EVENTS
                   </a>
                 </li>
 
-                <li class="nav-item">
+                <li className="nav-item">
                   <a
                     style={{ color: "black" }}
-                    class="nav-link"
+                    className="nav-link"
                     href="/reviews/"
                   >
                     REVIEWS
                   </a>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                   <a
                     style={{ color: "black" }}
-                    class="nav-link"
+                    className="nav-link"
                     href="/gallery/"
                   >
                     GALLERY
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a style={{ color: "black" }} class="nav-link" href="/news/">
+                <li className="nav-item">
+                  <a style={{ color: "black" }} className="nav-link" href="/news/">
                     NEWS
                   </a>
                 </li>
 
-                <li class="nav-item">
+                <li className="nav-item">
                   <Nav.Link href="/contact/" style={{ color: "black" }}>
                     CONTACT
                   </Nav.Link>

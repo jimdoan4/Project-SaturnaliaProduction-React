@@ -76,23 +76,23 @@ export default class EventPage extends Component {
     return (
       <div>
         <section id="team">
-          <div class="containers">
+          <div className="containers">
             <h1>
-              <p class="text-center">{this.state.event.eventTitle} </p>
+              <p className="text-center">{this.state.event.eventTitle} </p>
             </h1>
             <br />
-            <Container class="text-center">
-              <div class="row">
-                <div class="col profile-pic text-center">
-                  <div class="img-box">
+            <Container className="text-center">
+              <div className="row">
+                <div className="col profile-pic text-center">
+                  <div className="img-box">
                     <img
                       src={this.state.event.eventImage}
                       style={{ width: "50rem", marginBottom: "30px" }}
-                      class="img-responsive"
+                      className="img-responsive"
                     />
                   </div>
                   <Card.Title
-                    class="text-center"
+                    className="text-center"
                     style={{
                       color: "black",
                       fontWeight: "bold",
@@ -102,7 +102,7 @@ export default class EventPage extends Component {
                   >
                     {this.state.event.eventTitle}
                   </Card.Title>
-                  <Card.Text class="text-center">
+                  <Card.Text className="text-center">
                     {this.state.event.eventDescription}
                   </Card.Text>
                 </div>
@@ -110,13 +110,7 @@ export default class EventPage extends Component {
             </Container>
           </div>
         </section>
-        <Container
-          style={{
-            textAlign: "center",
-            marginBottom: "30px",
-            marginTop: "8px"
-          }}
-        >
+        <Container>
           <Row>
             <Col>
               <button className="bus" onClick={this.toggleEventForm}>

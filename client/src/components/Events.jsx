@@ -70,21 +70,21 @@ export default class Events extends Component {
 
   render() {
     return (
-      <div style={{ background: "#fffdf9", width: "100%", height: "100%" }}>
+      <div>
         <section id="team">
-          <div class="containers">
+          <div className="containers">
             <h1>Events</h1>
             <br />
             <br />
 
             <Container
-              class="text-center"
+              className="text-center"
             >
-              <div class="row">
+              <div className="row">
                 {this.state.events.map(event => {
                   return (
-                    <div class="col jumbotron profile-pic text-center">
-                      <div class="img-box">
+                    <div className="col jumbotron profile-pic text-center">
+                      <div className="img-box">
                         <Link to={`/events/${event._id}`} key={event._id}>
                           <img
                             src={event.eventImage}
@@ -98,7 +98,7 @@ export default class Events extends Component {
                         </Link>
                       </div>
                       <Card.Title
-                        class="text-center"
+                        className="text-center"
                         style={{
                           color: "black",
                           fontWeight: "bold",
@@ -109,7 +109,7 @@ export default class Events extends Component {
                       >
                         {event.eventTitle}
                       </Card.Title>
-                      <Card.Text class="text-center">
+                      <Card.Text className="text-center">
                         {event.eventDescription}
                       </Card.Text>
                     </div>
@@ -119,15 +119,15 @@ export default class Events extends Component {
             </Container>
           </div>
           <div style={{ marginTop: "80px" }}>
-            <button onClick={this.toggleEventForm} class="bus">
+            <button onClick={this.toggleEventForm} className="bus">
               Add Event
             </button>
           </div>
         </section>
 
-        <div class="container">
+        <div className="container">
           {this.state.displayEventForm ? (
-            <div class="container">
+            <div className="container">
 			<Form className="jumbotron" onSubmit={this.createEvent}>
               <Form.Group controlId="exampleForm.ControlInput1">
                 <Form.Label>Image Name</Form.Label>
@@ -169,8 +169,7 @@ export default class Events extends Component {
 
               <div
                 className="text-center"
-                style={{ marginTop: "20px", marginLeft: "140px" }}
-              >
+                style={{ marginTop: "20px", marginLeft: "140px" }}>
                 <button className="text-center submit-button">Submit</button>
               </div>
             </Form>
