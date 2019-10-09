@@ -57,138 +57,155 @@ export default class Home extends Component {
 
           <div
             id="multi-item-example"
-            class="carousel containers slide carousel-multi-item carousel-multi-item-2"
+            class="containers carousel slide carousel-multi-item carousel-multi-item-2"
             data-ride="carousel"
           >
-             <h1> Latest Events</h1>
-                <br />
-            <div class="carousel-inner team" role="listbox"  style={{
-                    background: "#fffdf9",
-                    width: "100%",
-                    height: "100%",
-                    display: "block",
-                    margin: "auto 0"
-                  }}>
+            <h1> Latest Events</h1>
+            <br />
+            <div class="carousel-inner" role="listbox">
               <div class="carousel-item active">
-             
-                <div class="col-md-3 mb-3 profile-pic text-center red seperate">
-                  <div class="img-box">
-                    <Card.Img
-                      src="https://cdn.theatlantic.com/assets/media/img/mt/2018/01/RTS193GB/lead_720_405.jpg?mod=1533691918/150px180"
-                      class="img-responsive"
-                      style={{
-                        width: "18rem",
-                        height: "200px",
-                        marginBottom: "30px"
-                      }}
+                <div class="col-md-3 mb-3">
+                  <div class="card red">
+                    <img
+                      class="img-fluid"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(38).jpg"
+                      alt="Card image cap"
                     />
+                    <Card.Title
+                      class="text-center"
+                      style={{
+                        color: "black",
+                        fontWeight: "bold",
+                        marginBottom: "10px",
+                        fontSize: "20px"
+                      }}
+                    >
+                      Retrospective: Lucrecia Martel
+                    </Card.Title>
+                    <Card.Text class="text-center">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </Card.Text>
                   </div>
-                  <Card.Title
-                    class="text-center"
-                    style={{
-                      color: "black",
-                      fontWeight: "bold",
-                      marginBottom: "10px",
-                      fontSize: "20px"
-                    }}
-                  >
-                    Retrospective: Lucrecia Martel
-                  </Card.Title>
-                  <Card.Text class="text-center">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
                 </div>
 
-                <div class="col-md-3 mb-3 profile-pic text-center red seperate">
-                  <div class="img-box">
-                    <Card.Img
-                      src="https://cdn.theatlantic.com/assets/media/img/mt/2018/01/RTS193GB/lead_720_405.jpg?mod=1533691918/150px180"
-                      class="img-responsive"
-                      style={{
-                        width: "18rem",
-                        height: "200px",
-                        marginBottom: "30px"
-                      }}
+                <div class="col-md-3 mb-3">
+                  <div class="card red">
+                    <img
+                      class="img-fluid"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(19).jpg"
+                      alt="Card image cap"
                     />
+                    <Card.Title
+                      class="text-center"
+                      style={{
+                        color: "black",
+                        fontWeight: "bold",
+                        marginBottom: "10px",
+                        fontSize: "20px"
+                      }}
+                    >
+                      Retrospective: Lucrecia Martel
+                    </Card.Title>
+                    <Card.Text class="text-center">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </Card.Text>
                   </div>
-                  <Card.Title
-                    class="text-center"
-                    style={{
-                      color: "black",
-                      fontWeight: "bold",
-                      marginBottom: "10px",
-                      fontSize: "20px"
-                    }}
-                  >
-                    Retrospective: Lucrecia Martel
-                  </Card.Title>
-                  <Card.Text class="text-center">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
                 </div>
 
-                <div class="col-md-3 mb-3 profile-pic text-center red seperate">
-                  <div class="img-box">
-                    <Card.Img
-                      src="https://cdn.theatlantic.com/assets/media/img/mt/2018/01/RTS193GB/lead_720_405.jpg?mod=1533691918/150px180"
-                      class="img-responsive"
-                      style={{
-                        width: "18rem",
-                        height: "200px",
-                        marginBottom: "30px"
-                      }}
+                <div class="col-md-3 mb-3">
+                  <div class="card red">
+                    <img
+                      class="img-fluid"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(42).jpg"
+                      alt="Card image cap"
                     />
+                    <Card.Title
+                      class="text-center"
+                      style={{
+                        color: "black",
+                        fontWeight: "bold",
+                        marginBottom: "10px",
+                        fontSize: "20px"
+                      }}
+                    >
+                      Retrospective: Lucrecia Martel
+                    </Card.Title>
+                    <Card.Text class="text-center">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </Card.Text>
                   </div>
-                  <Card.Title
-                    class="text-center"
-                    style={{
-                      color: "black",
-                      fontWeight: "bold",
-                      marginBottom: "10px",
-                      fontSize: "20px"
-                    }}
-                  >
-                    Retrospective: Lucrecia Martel
-                  </Card.Title>
-                  <Card.Text class="text-center">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
                 </div>
-                <div class="col-md-3 mb-3 profile-pic text-center red seperate">
-                  <div class="img-box">
-                    <Card.Img
-                      src="https://cdn.theatlantic.com/assets/media/img/mt/2018/01/RTS193GB/lead_720_405.jpg?mod=1533691918/150px180"
-                      class="img-responsive"
-                      style={{
-                        width: "18rem",
-                        height: "200px",
-                        marginBottom: "30px"
-                      }}
+
+                <div class="col-md-3 mb-3">
+                  <div class="card red">
+                    <img
+                      class="img-fluid"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(8).jpg"
+                      alt="Card image cap"
                     />
+                    <Card.Title
+                      class="text-center"
+                      style={{
+                        color: "black",
+                        fontWeight: "bold",
+                        marginBottom: "10px",
+                        fontSize: "20px"
+                      }}
+                    >
+                      Retrospective: Lucrecia Martel
+                    </Card.Title>
+                    <Card.Text class="text-center">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </Card.Text>
                   </div>
-                  <Card.Title
-                    class="text-center"
-                    style={{
-                      color: "black",
-                      fontWeight: "bold",
-                      marginBottom: "10px",
-                      fontSize: "20px"
-                    }}
-                  >
-                    Retrospective: Lucrecia Martel
-                  </Card.Title>
-                  <Card.Text class="text-center">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
                 </div>
               </div>
 
-            
-           
+              <div class="carousel-item">
+                <div class="col-md-3 mb-3">
+                  <div class="card">
+                    <img
+                      class="img-fluid"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(64).jpg"
+                      alt="Card image cap"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                  <div class="card">
+                    <img
+                      class="img-fluid"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(51).jpg"
+                      alt="Card image cap"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                  <div class="card">
+                    <img
+                      class="img-fluid"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(59).jpg"
+                      alt="Card image cap"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                  <div class="card">
+                    <img
+                      class="img-fluid"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(63).jpg"
+                      alt="Card image cap"
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="controls-top text-center">
               <a
@@ -208,7 +225,7 @@ export default class Home extends Component {
             </div>
           </div>
 
-        
+
           {/* NEWS */}
           {/* <div style={{ background: "#fffdf9", width: "100%", height: "100%" }}>
             <section id="team">
@@ -386,283 +403,349 @@ export default class Home extends Component {
 
           {/*                     
                     BLOGS */}
-          <div style={{ background: "#fffdf9", width: "100%", height: "100%" }}>
-            <section id="team">
-              <div class="containers">
-                <h1> Latest Blogs</h1>
-                <br />
-                <Container
-                  class="text-center"
-                  fluid
-                  style={{
-                    background: "#fffdf9",
-                    width: "100%",
-                    height: "100%",
-                    display: "block",
-                    margin: "auto 0"
-                  }}
-                >
-                  <div class="row">
-                    <div class="col profile-pic text-center red seperate">
-                      <div class="img-box">
-                        <Card.Img
-                          src="https://cdn.theatlantic.com/assets/media/img/mt/2018/01/RTS193GB/lead_720_405.jpg?mod=1533691918/150px180"
-                          class="img-responsive"
-                          style={{
-                            width: "18rem",
-                            height: "200px",
-                            marginBottom: "30px"
-                          }}
-                        />
-                      </div>
-                      <Card.Title
-                        class="text-center"
-                        style={{
-                          color: "black",
-                          fontWeight: "bold",
-                          marginBottom: "10px",
-                          fontSize: "20px"
-                        }}
-                      >
-                        Retrospective: Lucrecia Martel
-                      </Card.Title>
-                      <Card.Text class="text-center">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </Card.Text>
-                    </div>
-                    <div class="col profile-pic text-center red seperate">
-                      {/* <Card > */}
-                      <div class="img-box">
-                        <img
-                          src="https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1440,w_2560,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1526152229/180512-cathart-tbilisi-hero_zl4phh"
-                          style={{
-                            width: "18rem",
-                            height: "200px",
-                            marginBottom: "30px"
-                          }}
-                          class="img-responsive"
-                        />
-                      </div>
-                      <Card.Title
-                        class="text-center"
-                        style={{
-                          color: "black",
-                          fontWeight: "bold",
-                          marginBottom: "10px",
-                          fontSize: "20px"
-                        }}
-                      >
-                        Retrospective: Lucrecia Martel
-                      </Card.Title>
-                      <Card.Text class="text-center">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </Card.Text>
 
-                      {/* </Card> */}
-                    </div>
-                    <div class="col profile-pic text-center red seperate">
-                      <div class="img-box">
-                        <img
-                          src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/10/12/1444665090823/7c52dec6-fce9-431e-b079-a07d49f6d2ee-2060x1236.jpeg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMTUucG5n&s=fb870168d916031df11593bfe9bdef10"
-                          style={{
-                            width: "18rem",
-                            height: "200px",
-                            marginBottom: "30px"
-                          }}
-                          class="img-responsive"
-                        />
-                      </div>
-                      <Card.Title
-                        class="text-center"
-                        style={{
-                          color: "black",
-                          fontWeight: "bold",
-                          marginBottom: "10px",
-                          fontSize: "20px"
-                        }}
-                      >
-                        Retrospective: Lucrecia Martel
-                      </Card.Title>
-                      <Card.Text class="text-center">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </Card.Text>
-                    </div>
-                    <div class="col profile-pic text-center red seperate">
-                      <div class="img-box">
-                        <img
-                          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSYi8idP_OKLpSwlW8e3bw4BGfFwRbEKZLdrApFiXmiC4zi-eA"
-                          style={{
-                            width: "18rem",
-                            height: "200px",
-                            marginBottom: "30px"
-                          }}
-                          class="img-responsive"
-                        />
-                      </div>
-                      <Card.Title
-                        class="text-center"
-                        style={{
-                          color: "black",
-                          fontWeight: "bold",
-                          marginBottom: "10px",
-                          fontSize: "20px"
-                        }}
-                      >
-                        Retrospective: Lucrecia Martel
-                      </Card.Title>
-                      <Card.Text class="text-center">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </Card.Text>
-                    </div>
+                    <div
+            id="multi-item-example"
+            class="containers carousel slide carousel-multi-item carousel-multi-item-2"
+            data-ride="carousel"
+          >
+            <h1> Latest Blogs</h1>
+            <br />
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <div class="col-md-3 mb-3">
+                  <div class="card red">
+                    <img
+                      class="img-fluid"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(38).jpg"
+                      alt="Card image cap"
+                    />
+                    <Card.Title
+                      class="text-center"
+                      style={{
+                        color: "black",
+                        fontWeight: "bold",
+                        marginBottom: "10px",
+                        fontSize: "20px"
+                      }}
+                    >
+                      Retrospective: Lucrecia Martel
+                    </Card.Title>
+                    <Card.Text class="text-center">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </Card.Text>
                   </div>
-                </Container>
-              </div>
-            </section>
-          </div>
+                </div>
 
+                <div class="col-md-3 mb-3">
+                  <div class="card red">
+                    <img
+                      class="img-fluid"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(19).jpg"
+                      alt="Card image cap"
+                    />
+                    <Card.Title
+                      class="text-center"
+                      style={{
+                        color: "black",
+                        fontWeight: "bold",
+                        marginBottom: "10px",
+                        fontSize: "20px"
+                      }}
+                    >
+                      Retrospective: Lucrecia Martel
+                    </Card.Title>
+                    <Card.Text class="text-center">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </Card.Text>
+                  </div>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                  <div class="card red">
+                    <img
+                      class="img-fluid"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(42).jpg"
+                      alt="Card image cap"
+                    />
+                    <Card.Title
+                      class="text-center"
+                      style={{
+                        color: "black",
+                        fontWeight: "bold",
+                        marginBottom: "10px",
+                        fontSize: "20px"
+                      }}
+                    >
+                      Retrospective: Lucrecia Martel
+                    </Card.Title>
+                    <Card.Text class="text-center">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </Card.Text>
+                  </div>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                  <div class="card red">
+                    <img
+                      class="img-fluid"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(8).jpg"
+                      alt="Card image cap"
+                    />
+                    <Card.Title
+                      class="text-center"
+                      style={{
+                        color: "black",
+                        fontWeight: "bold",
+                        marginBottom: "10px",
+                        fontSize: "20px"
+                      }}
+                    >
+                      Retrospective: Lucrecia Martel
+                    </Card.Title>
+                    <Card.Text class="text-center">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </Card.Text>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="col-md-3 mb-3">
+                  <div class="card">
+                    <img
+                      class="img-fluid"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(64).jpg"
+                      alt="Card image cap"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                  <div class="card">
+                    <img
+                      class="img-fluid"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(51).jpg"
+                      alt="Card image cap"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                  <div class="card">
+                    <img
+                      class="img-fluid"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(59).jpg"
+                      alt="Card image cap"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                  <div class="card">
+                    <img
+                      class="img-fluid"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(63).jpg"
+                      alt="Card image cap"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="controls-top text-center">
+              <a
+                class="black-text"
+                href="#multi-item-example"
+                data-slide="prev"
+              >
+                <i class="fas fa-angle-left fa-3x pr-3"></i>
+              </a>
+              <a
+                class="black-text"
+                href="#multi-item-example"
+                data-slide="next"
+              >
+                <i class="fas fa-angle-right fa-3x pl-3"></i>
+              </a>
+            </div>
+          </div>
+        
           {/* REVIEWS */}
-          <div style={{ background: "#fffdf9", width: "100%", height: "100%" }}>
-            <section id="team">
-              <div class="containers">
-                <h1> Latest Reviews</h1>
-                <br />
-                <Container
-                  class="text-center"
-                  fluid
-                  style={{
-                    background: "#fffdf9",
-                    width: "100%",
-                    height: "100%",
-                    display: "block",
-                    margin: "auto 0"
-                  }}
-                >
-                  <div class="row">
-                    <div class="col profile-pic text-center red seperate">
-                      <div class="img-box">
-                        <Card.Img
-                          src="https://cdn.theatlantic.com/assets/media/img/mt/2018/01/RTS193GB/lead_720_405.jpg?mod=1533691918/150px180"
-                          class="img-responsive"
-                          style={{
-                            width: "18rem",
-                            height: "200px",
-                            marginBottom: "30px"
-                          }}
-                        />
-                      </div>
-                      <Card.Title
-                        class="text-center"
-                        style={{
-                          color: "black",
-                          fontWeight: "bold",
-                          marginBottom: "10px",
-                          fontSize: "20px"
-                        }}
-                      >
-                        Retrospective: Lucrecia Martel
-                      </Card.Title>
-                      <Card.Text class="text-center">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </Card.Text>
-                    </div>
-                    <div class="col profile-pic text-center red seperate">
-                      {/* <Card > */}
-                      <div class="img-box">
-                        <img
-                          src="https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1440,w_2560,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1526152229/180512-cathart-tbilisi-hero_zl4phh"
-                          style={{
-                            width: "18rem",
-                            height: "200px",
-                            marginBottom: "30px"
-                          }}
-                          class="img-responsive"
-                        />
-                      </div>
-                      <Card.Title
-                        class="text-center"
-                        style={{
-                          color: "black",
-                          fontWeight: "bold",
-                          marginBottom: "10px",
-                          fontSize: "20px"
-                        }}
-                      >
-                        Retrospective: Lucrecia Martel
-                      </Card.Title>
-                      <Card.Text class="text-center">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </Card.Text>
-
-                      {/* </Card> */}
-                    </div>
-                    <div class="col profile-pic text-center red seperate">
-                      <div class="img-box">
-                        <img
-                          src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/10/12/1444665090823/7c52dec6-fce9-431e-b079-a07d49f6d2ee-2060x1236.jpeg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMTUucG5n&s=fb870168d916031df11593bfe9bdef10"
-                          style={{
-                            width: "18rem",
-                            height: "200px",
-                            marginBottom: "30px"
-                          }}
-                          class="img-responsive"
-                        />
-                      </div>
-                      <Card.Title
-                        class="text-center"
-                        style={{
-                          color: "black",
-                          fontWeight: "bold",
-                          marginBottom: "10px",
-                          fontSize: "20px"
-                        }}
-                      >
-                        Retrospective: Lucrecia Martel
-                      </Card.Title>
-                      <Card.Text class="text-center">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </Card.Text>
-                    </div>
-                    <div class="col profile-pic text-center red seperate">
-                      <div class="img-box">
-                        <img
-                          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSYi8idP_OKLpSwlW8e3bw4BGfFwRbEKZLdrApFiXmiC4zi-eA"
-                          style={{
-                            width: "18rem",
-                            height: "200px",
-                            marginBottom: "30px"
-                          }}
-                          class="img-responsive"
-                        />
-                      </div>
-                      <Card.Title
-                        class="text-center"
-                        style={{
-                          color: "black",
-                          fontWeight: "bold",
-                          marginBottom: "10px",
-                          fontSize: "20px"
-                        }}
-                      >
-                        Retrospective: Lucrecia Martel
-                      </Card.Title>
-                      <Card.Text class="text-center">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </Card.Text>
-                    </div>
+          <div
+            id="multi-item-example"
+            class="containers carousel slide carousel-multi-item carousel-multi-item-2"
+            data-ride="carousel"
+          >
+            <h1> Latest Reviews</h1>
+            <br />
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <div class="col-md-3 mb-3">
+                  <div class="card red">
+                    <img
+                      class="img-fluid"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(38).jpg"
+                      alt="Card image cap"
+                    />
+                    <Card.Title
+                      class="text-center"
+                      style={{
+                        color: "black",
+                        fontWeight: "bold",
+                        marginBottom: "10px",
+                        fontSize: "20px"
+                      }}
+                    >
+                      Retrospective: Lucrecia Martel
+                    </Card.Title>
+                    <Card.Text class="text-center">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </Card.Text>
                   </div>
-                </Container>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                  <div class="card red">
+                    <img
+                      class="img-fluid"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(19).jpg"
+                      alt="Card image cap"
+                    />
+                    <Card.Title
+                      class="text-center"
+                      style={{
+                        color: "black",
+                        fontWeight: "bold",
+                        marginBottom: "10px",
+                        fontSize: "20px"
+                      }}
+                    >
+                      Retrospective: Lucrecia Martel
+                    </Card.Title>
+                    <Card.Text class="text-center">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </Card.Text>
+                  </div>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                  <div class="card red">
+                    <img
+                      class="img-fluid"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(42).jpg"
+                      alt="Card image cap"
+                    />
+                    <Card.Title
+                      class="text-center"
+                      style={{
+                        color: "black",
+                        fontWeight: "bold",
+                        marginBottom: "10px",
+                        fontSize: "20px"
+                      }}
+                    >
+                      Retrospective: Lucrecia Martel
+                    </Card.Title>
+                    <Card.Text class="text-center">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </Card.Text>
+                  </div>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                  <div class="card red">
+                    <img
+                      class="img-fluid"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(8).jpg"
+                      alt="Card image cap"
+                    />
+                    <Card.Title
+                      class="text-center"
+                      style={{
+                        color: "black",
+                        fontWeight: "bold",
+                        marginBottom: "10px",
+                        fontSize: "20px"
+                      }}
+                    >
+                      Retrospective: Lucrecia Martel
+                    </Card.Title>
+                    <Card.Text class="text-center">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </Card.Text>
+                  </div>
+                </div>
               </div>
-            </section>
+
+              <div class="carousel-item">
+                <div class="col-md-3 mb-3">
+                  <div class="card">
+                    <img
+                      class="img-fluid"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(64).jpg"
+                      alt="Card image cap"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                  <div class="card">
+                    <img
+                      class="img-fluid"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(51).jpg"
+                      alt="Card image cap"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                  <div class="card">
+                    <img
+                      class="img-fluid"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(59).jpg"
+                      alt="Card image cap"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                  <div class="card">
+                    <img
+                      class="img-fluid"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(63).jpg"
+                      alt="Card image cap"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="controls-top text-center">
+              <a
+                class="black-text"
+                href="#multi-item-example"
+                data-slide="prev"
+              >
+                <i class="fas fa-angle-left fa-3x pr-3"></i>
+              </a>
+              <a
+                class="black-text"
+                href="#multi-item-example"
+                data-slide="next"
+              >
+                <i class="fas fa-angle-right fa-3x pl-3"></i>
+              </a>
+            </div>
           </div>
 
+          
           {/* GALLERY */}
           <div style={{ background: "#fffdf9", width: "100%", height: "100%" }}>
             <section id="team">
