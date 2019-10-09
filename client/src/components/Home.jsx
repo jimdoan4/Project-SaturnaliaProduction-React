@@ -64,7 +64,7 @@ export default class Home extends Component {
             <div className="carousel-inner" role="listbox">
               <div className="carousel-item active">
                 <div className="col-md-3 mb-3">
-                  <div clasNames="card red">
+                  <div className="card red">
                     <img
                       className="img-fluid"
                       src="https://cdn.theatlantic.com/assets/media/img/mt/2018/01/RTS193GB/lead_720_405.jpg?mod=1533691918/150px180"
