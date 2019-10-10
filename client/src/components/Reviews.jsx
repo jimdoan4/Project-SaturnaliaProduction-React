@@ -5,6 +5,7 @@ import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 export default class Reviews extends Component {
+    // We'll set up the  array as an empty array to begin with
   state = {
     reviews: [],
     newReviews: {
@@ -21,21 +22,21 @@ export default class Reviews extends Component {
   };
 
   getAllReviews = () => {
-    axios.get("/api/reviews/").then(res => {
+    axios.get("/api/reviews/").then(res => {  // When the page loads, grab all reviews from the database
       this.setState({ reviews: res.data });
     });
   };
 
   createReview = e => {
     axios
-      .post("/api/reviews/", {
+      .post("/api/reviews/", {   // Ask the server to create a new review in the database
         reviewTitle: this.state.newReview.reviewTitle,
         reviewDescription: this.state.newReview.reviewDescription,
         reviewImage: this.state.newReview.reviewImage,
         reviewUser: this.state.newReview.reviewUser
       })
       .then(res => {
-        const reviewsList = [this.state.reviews];
+        const reviewsList = [this.state.reviews]; // Copy the old reviews list into a new one
         reviewsList.unshift(res.data);
         this.setState({
           newReview: {
@@ -51,9 +52,15 @@ export default class Reviews extends Component {
     this.getAlReviews();
   };
 
+
+
+   //We need to pass in multiple arguments here.  The first is the object of the specific idea that is being changed.
+  //And the event object is the special event listener object that has information about the value and name
   handleChange = e => {
     const changeNewReview = { ...this.state.newReview };
+        // Here we are using bracket syntax instead of dot-notation to transform a specific property
     changeNewReview[e.target.name] = e.target.value;
+        // update the state with our updated review
     this.setState({ newReview: changeNewReview });
   };
 

@@ -4,6 +4,7 @@ import { Container } from "react-bootstrap";
 import { Card } from "react-bootstrap";
 
 export default class ReviewsPage extends Component {
+    // We'll set up the  array as an empty array to begin with
   state = {
     events: [],
     newEvent: {
@@ -20,21 +21,21 @@ export default class ReviewsPage extends Component {
   };
 
   getAllEvents = () => {
-    axios.get("/api/events/").then(res => {
-      this.setState({ events: res.data });
+    axios.get("/api/events/").then(res => { // When the page loads, grab all events from the database
+      this.setState({ events: res.data });  // Put these events on the state, so they will render
     });
   };
 
   createEvent = e => {
     axios
-      .post("/api/events/", {
+      .post("/api/events/", {  // Ask the server to create a new event in the database
         eventTitle: this.state.newEvent.eventTitle,
         eventDescription: this.state.newEvent.eventDescription,
         eventImage: this.state.newEvent.eventImage
       })
       .then(res => {
-        const eventsList = [this.state.events];
-        eventsList.unshift(res.data);
+        const eventsList = [this.state.events];  // Copy the old events list into a new one
+        eventsList.unshift(res.data); // Grab the new event from the server
         this.setState({
           newEvent: {
             eventTitle: "",
@@ -48,9 +49,14 @@ export default class ReviewsPage extends Component {
     this.getAllEvents();
   };
 
+
+   //We need to pass in multiple arguments here.  The first is the object of the specific idea that is being changed.
+  //And the event object is the special event listener object that has information about the value and name
   handleChange = e => {
     const changeNewEvent = { ...this.state.newEvent };
+    // Here we are using bracket syntax instead of dot-notation to transform a specific property
     changeNewEvent[e.target.name] = e.target.value;
+        // update the state with our updated event
     this.setState({ newEvent: changeNewEvent });
   };
 

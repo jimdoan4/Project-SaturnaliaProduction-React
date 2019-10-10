@@ -5,7 +5,7 @@ export default class Footer extends Component {
   render() {
     return (
       <div>
-         <section class="footer">
+         <section className="footer">
             <div
               style={{ paddingTop: "80px", paddingBottom: "60px" }}
               className="container tex-center">

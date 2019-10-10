@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import { Form } from 'react-bootstrap';
 
 export default class Gallery extends Component {
+  // We'll set up the  array as an empty array to begin with
   state = {
     gallerys: [],
     newGallery: {
@@ -21,20 +22,20 @@ export default class Gallery extends Component {
   };
 
   getAllGallerys = () => {
-    axios.get("/api/gallerys/").then(res => {
-      this.setState({ gallerys: res.data });
+    axios.get("/api/gallerys/").then(res => { // When the page loads, grab all gallerys from the database
+      this.setState({ gallerys: res.data });  // Put these gallerys on the state, so they will render
     });
   };
 
   createGallery = e => {
     axios
-      .post("/api/gallerys/", {
+      .post("/api/gallerys/", {   // Ask the server to create a new gallery in the database
         galleryTitle: this.state.newGallery.galleryTitle,
         galleryDescription: this.state.newGallery.galleryDescription,
         galleryImage: this.state.newGallery.galleryImage
       })
       .then(res => {
-        const gallerysList = [this.state.gallerys];
+        const gallerysList = [this.state.gallerys]; // Copy the old gallerys list into a new one
         gallerysList.unshift(res.data);
         this.setState({
           newGallery: {
@@ -55,9 +56,13 @@ export default class Gallery extends Component {
     });
   };
 
+     //We need to pass in multiple arguments here.  The first is the object of the specific idea that is being changed.
+  //And the event object is the special event listener object that has information about the value and name
   handleChange = e => {
     const changeNewGallery = { ...this.state.newGallery };
+        // Here we are using bracket syntax instead of dot-notation to transform a specific property
     changeNewGallery[e.target.name] = e.target.value;
+           // update the state with our updated gallery
     this.setState({ newGallery: changeNewGallery });
   };
 

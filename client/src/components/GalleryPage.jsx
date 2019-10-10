@@ -8,6 +8,7 @@ import { Col } from "react-bootstrap";
 import { Form } from 'react-bootstrap';
 
 export default class GalleryPage extends Component {
+   // We'll set up the  array as an empty array to begin with
   state = {
     galleryId: this.props.galleryId,
     gallerys: [],
@@ -23,8 +24,8 @@ export default class GalleryPage extends Component {
   };
 
   getSingleGalleryData = () => {
-    axios.get(`/api/gallerys/${this.state.galleryId}`).then(res => {
-      this.setState({ gallery: res.data });
+    axios.get(`/api/gallerys/${this.state.galleryId}`).then(res => { // When the page loads, grab all gallerys from the database
+      this.setState({ gallery: res.data }); // Put these gallerys on the state, so they will render
     });
   };
 
@@ -32,7 +33,7 @@ export default class GalleryPage extends Component {
     this.getSingleGalleryData();
   };
 
-  toggleGalleryForm = () => {
+  toggleGalleryForm = () => { // This toggle the gallery button when clicked
     this.setState((state, props) => {
       return { displayGalleryForm: !state.displayGalleryForm };
     });
@@ -53,7 +54,7 @@ export default class GalleryPage extends Component {
   updateGallery = e => {
     e.preventDefault();
     axios
-      .put(`/api/gallerys/${this.state.galleryId}`, {
+      .put(`/api/gallerys/${this.state.galleryId}`, {  // ask the server to update the gallery in the database
         galleryTitle: this.state.gallery.galleryTitle,
         galleryDescription: this.state.gallery.galleryDescription,
         galleryImage: this.state.gallery.galleryImage,
@@ -66,7 +67,7 @@ export default class GalleryPage extends Component {
   };
 
   deleteGallery = () => {
-    axios.delete(`/api/gallerys/${this.state.galleryId}`).then(res => {
+    axios.delete(`/api/gallerys/${this.state.galleryId}`).then(res => {  // Ask the server to delete this gallery
       this.setState({ redirectToGallery: true });
     });
   };

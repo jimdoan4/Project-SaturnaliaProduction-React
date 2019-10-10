@@ -8,6 +8,7 @@ import { Row } from "react-bootstrap";
 import { Col } from "react-bootstrap";
 
 export default class EventPage extends Component {
+    // We'll set up the  array as an empty array to begin with
   state = {
     eventId: this.props.eventId,
     events: [],
@@ -22,8 +23,8 @@ export default class EventPage extends Component {
   };
 
   getSingleEventData = () => {
-    axios.get(`/api/events/${this.state.eventId}`).then(res => {
-      this.setState({ event: res.data });
+    axios.get(`/api/events/${this.state.eventId}`).then(res => { // When the page loads, grab all events from the database
+      this.setState({ event: res.data }); // Put these events on the state, so they will render
     });
   };
 
@@ -32,7 +33,7 @@ export default class EventPage extends Component {
   };
 
   toggleEventForm = () => {
-    this.setState((state, props) => {
+    this.setState((state, props) => { // This toggle the event button when click
       return { displayEventForm: !state.displayEventForm };
     });
   };
@@ -52,7 +53,7 @@ export default class EventPage extends Component {
   updateEvent = e => {
     e.preventDefault();
     axios
-      .put(`/api/events/${this.state.eventId}`, {
+      .put(`/api/events/${this.state.eventId}`, {  // ask the server to update the event in the database
         eventTitle: this.state.event.eventTitle,
         eventDescription: this.state.event.eventDescription,
         eventImage: this.state.event.eventImage
@@ -64,7 +65,7 @@ export default class EventPage extends Component {
   };
 
   deleteEvent = () => {
-    axios.delete(`/api/events/${this.state.eventId}`).then(res => {
+    axios.delete(`/api/events/${this.state.eventId}`).then(res => {  // Ask the server to delete this event
       this.setState({ redirectToEvent: true });
     });
   };
