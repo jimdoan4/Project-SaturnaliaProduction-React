@@ -78,7 +78,7 @@ export default class GalleryPage extends Component {
     }
     return (
       <div>
-        <section id="team">
+        <div id="team">
           <div className="containers">
             <h1>
               <p className="text-center">Atlanta Best Night Life</p>
@@ -86,8 +86,8 @@ export default class GalleryPage extends Component {
             <br />
             <Container
               className="text-center">
-              <div className="row">
-                <div className="col profile-pic text-center">
+              <Row>
+                <Col className="profile-pic text-center">
                   <div className="img-box">
                     <img
                       src={this.state.gallery.galleryImage}
@@ -109,13 +109,14 @@ export default class GalleryPage extends Component {
                   <Card.Text className="text-center">
                     {this.state.gallery.galleryDescription}
                   </Card.Text>
-                </div>
-              </div>
+                </Col>
+              </Row>
 
               <div
                 id="carousel-example-2"
                 className="carousel slide carousel-fade z-depth-1-half"
                 data-ride="carousel"
+                style={{marginTop: "90px"}}
               >
                 <ol className="carousel-indicators">
                   <li
@@ -188,7 +189,7 @@ export default class GalleryPage extends Component {
               </div>
             </Container>
           </div>
-        </section>
+        </div>
         <Container
           style={{
             textAlign: "center",

@@ -2,9 +2,11 @@ import React, { Component } from "react";
 import axios from "axios";
 import { Container } from "react-bootstrap";
 import { Card } from "react-bootstrap";
+import { Row } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 
 export default class ReviewsPage extends Component {
-    // We'll set up the  array as an empty array to begin with
+  // We'll set up the  array as an empty array to begin with
   state = {
     events: [],
     newEvent: {
@@ -21,20 +23,22 @@ export default class ReviewsPage extends Component {
   };
 
   getAllEvents = () => {
-    axios.get("/api/events/").then(res => { // When the page loads, grab all events from the database
-      this.setState({ events: res.data });  // Put these events on the state, so they will render
+    axios.get("/api/events/").then(res => {
+      // When the page loads, grab all events from the database
+      this.setState({ events: res.data }); // Put these events on the state, so they will render
     });
   };
 
   createEvent = e => {
     axios
-      .post("/api/events/", {  // Ask the server to create a new event in the database
+      .post("/api/events/", {
+        // Ask the server to create a new event in the database
         eventTitle: this.state.newEvent.eventTitle,
         eventDescription: this.state.newEvent.eventDescription,
         eventImage: this.state.newEvent.eventImage
       })
       .then(res => {
-        const eventsList = [this.state.events];  // Copy the old events list into a new one
+        const eventsList = [this.state.events]; // Copy the old events list into a new one
         eventsList.unshift(res.data); // Grab the new event from the server
         this.setState({
           newEvent: {
@@ -49,14 +53,13 @@ export default class ReviewsPage extends Component {
     this.getAllEvents();
   };
 
-
-   //We need to pass in multiple arguments here.  The first is the object of the specific idea that is being changed.
+  //We need to pass in multiple arguments here.  The first is the object of the specific idea that is being changed.
   //And the event object is the special event listener object that has information about the value and name
   handleChange = e => {
     const changeNewEvent = { ...this.state.newEvent };
     // Here we are using bracket syntax instead of dot-notation to transform a specific property
     changeNewEvent[e.target.name] = e.target.value;
-        // update the state with our updated event
+    // update the state with our updated event
     this.setState({ newEvent: changeNewEvent });
   };
 
@@ -68,7 +71,7 @@ export default class ReviewsPage extends Component {
   render() {
     return (
       <div>
-        <section id="team">
+        <div id="team">
           <div className="containers">
             <h1>
               <p className="text-center">
@@ -76,10 +79,9 @@ export default class ReviewsPage extends Component {
               </p>
             </h1>
             <br />
-            <Container
-              className="text-center">
-              <div className="row">
-                <div className="col profile-pic text-center">
+            <Container className="text-center">
+              <Row>
+                <Col className="profile-pic text-center">
                   <div className="img-box">
                     <img
                       src="https://www.projectq.us/images/uploads/6_9_19_Possums_Summer_Camp-24.jpg"
@@ -124,15 +126,14 @@ export default class ReviewsPage extends Component {
                       here.
                     </p>
                   </Card.Text>
-                </div>
-              </div>
+                </Col>
+              </Row>
             </Container>
 
-            <Container
-              className="text-center">
-              <div className="row">
-                <div className="col profile-pic text-center">
-                  <div class="card img-box">
+            <Container className="text-center" style={{ marginTop: "30px" }}>
+              <Row>
+                <Col className="profile-pic text-center">
+                  <Card class="img-box">
                     <Card.Title
                       className="text-center"
                       style={{
@@ -152,10 +153,10 @@ export default class ReviewsPage extends Component {
                       <br />
                       features the annual Demolition{" "}
                     </Card.Text>
-                  </div>
-                </div>
-                <div className="col profile-pic text-center">
-                  <div className="card img-box sexy">
+                  </Card>
+                </Col>
+                <Col className="profile-pic text-center">
+                  <Card className="img-box sexy">
                     <Card.Title
                       className="text-center"
                       style={{
@@ -174,10 +175,10 @@ export default class ReviewsPage extends Component {
                       <br />
                       Call: 404-333-5454
                     </Card.Text>
-                  </div>
-                </div>
-                <div className="col profile-pic text-center">
-                  <div className="card img-box sexy">
+                  </Card>
+                </Col>
+                <Col className="profile-pic text-center">
+                  <Card className="img-box sexy">
                     <Card.Title
                       class="text-center"
                       style={{
@@ -196,25 +197,15 @@ export default class ReviewsPage extends Component {
                       <br />
                       features the annual Demolition{" "}
                     </Card.Text>
-                  </div>
-                </div>
-              </div>
+                  </Card>
+                </Col>
+              </Row>
             </Container>
 
-            <Container
-              className="text-center">
-              <div className="row" style={{ marginBottom: "30px" }}>
-                <div className="row profile-pic text-center">
-                  {/* <div class="img-box">
-                    <img
-                      src="https://scontent.fatl1-1.fna.fbcdn.net/v/t1.0-9/31224442_10216201289563031_5475239727873392640_o.jpg?_nc_cat=105&_nc_oc=AQnPsR2ELeNr7Q0ejvJfpXQ90Ji_iImZlW-1oghJaUf2WakO3MBuET6rKXoTLraYuBA&_nc_ht=scontent.fatl1-1.fna&oh=1b533fa3d28179434c68baff3089c2f0&oe=5D92F7C9"
-                      style={{ width: "20rem", height: "240px" }}
-                      class="img-responsive"
-                    />
-                  </div> */}
-
+            <Container className="text-center" style={{ marginBottom: "30px", marginTop: "30px" }}>
+                <Row className="profile-pic text-center">
                   <br />
-                  <div className=" col card">
+                  <Col className="card">
                     <p style={{ marginTop: "19px" }}>Reviewed 1 week ago</p>
                     <Card.Title
                       className="text-center"
@@ -235,25 +226,14 @@ export default class ReviewsPage extends Component {
                       stools and you eat...More <br />
                       Date of visit: May 2019
                     </Card.Text>
-                  </div>
-                </div>
-              </div>
+                  </Col>
+                </Row>
             </Container>
 
-            <Container
-              className="text-center">
-              <div className="row">
-                <div className="row profile-pic text-center">
-                  {/* <div class="img-box">
-                    <img
-                      src="https://scontent.fatl1-1.fna.fbcdn.net/v/t1.0-9/46686054_10217876520602760_1458512799993954304_n.jpg?_nc_cat=102&_nc_oc=AQnodcUhByJGP_8bmqDCTIa1ekQLFbCgg0KfxEfdHRzcOgI8tWb3z7SB8Q-dEJKZ0YU&_nc_ht=scontent.fatl1-1.fna&oh=f99f04875a066c5a12d07ce8abdb28c5&oe=5D91C5FB"
-                      style={{ width: "20rem", height: "240px" }}
-                      class="img-responsive"
-                    />
-                  </div> */}
-
+            <Container className="text-center">
+                <Row className="profile-pic text-center">
                   <br />
-                  <div className=" col card">
+                  <Col className="card">
                     <p style={{ marginTop: "19px" }}>Reviewed 3 weeks ago</p>
                     <Card.Title
                       className="text-center"
@@ -275,12 +255,11 @@ export default class ReviewsPage extends Component {
                       <br />
                       Date of visit: May 2019
                     </Card.Text>
-                  </div>
-                </div>
-              </div>
+                  </Col>
+                </Row>
             </Container>
           </div>
-        </section>
+        </div>
       </div>
     );
   }

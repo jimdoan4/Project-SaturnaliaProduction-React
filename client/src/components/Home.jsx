@@ -24,10 +24,10 @@ export default class Home extends Component {
             </div>
           </div>
 
-          <section className="fashion-Trends">
-            <div className="container">
+          <div className="fashion-trends">
+            <Container>
               <div className="fashion-box">
-                <div className="section-Title text-center">
+                <div className="section-title text-center">
                   <h5 style={{ fontWeight: "bold" }}>WHAT WE DO</h5>
                   <h4
                     className="sec2 "
@@ -51,8 +51,8 @@ export default class Home extends Component {
               </div>
 
               <button className="bus">START BROWSING EVENTS</button>
-            </div>
-          </section>
+            </Container>
+          </div>
 
           <div
             id="multi-item-example"
@@ -64,7 +64,7 @@ export default class Home extends Component {
             <div className="carousel-inner" role="listbox">
               <div className="carousel-item active">
                 <div className="col-md-3 mb-3">
-                  <div className="card red">
+                  <Card className="red">
                     <img
                       className="img-fluid"
                       src="https://cdn.theatlantic.com/assets/media/img/mt/2018/01/RTS193GB/lead_720_405.jpg?mod=1533691918/150px180"
@@ -85,11 +85,11 @@ export default class Home extends Component {
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </Card.Text>
-                  </div>
+                  </Card>
                 </div>
 
                 <div className="col-md-3 mb-3">
-                  <div className="card red">
+                  <Card className="red">
                     <img
                       className="img-fluid"
                       src="https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1440,w_2560,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1526152229/180512-cathart-tbilisi-hero_zl4phh"
@@ -110,11 +110,11 @@ export default class Home extends Component {
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </Card.Text>
-                  </div>
+                  </Card>
                 </div>
 
                 <div className="col-md-3 mb-3">
-                  <div className="card red">
+                  <Card className="red">
                     <img
                       className="img-fluid"
                       src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/10/12/1444665090823/7c52dec6-fce9-431e-b079-a07d49f6d2ee-2060x1236.jpeg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMTUucG5n&s=fb870168d916031df11593bfe9bdef10"
@@ -135,11 +135,11 @@ export default class Home extends Component {
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </Card.Text>
-                  </div>
+                  </Card>
                 </div>
 
                 <div className="col-md-3 mb-3">
-                  <div className="card red">
+                  <Card className="red">
                     <img
                       className="img-fluid"
                       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSYi8idP_OKLpSwlW8e3bw4BGfFwRbEKZLdrApFiXmiC4zi-eA"
@@ -160,13 +160,13 @@ export default class Home extends Component {
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </Card.Text>
-                  </div>
+                  </Card>
                 </div>
               </div>
 
               <div className="carousel-item">
                 <div className="col-md-3 mb-3">
-                  <div className="card red">
+                  <Card className="red">
                     <img
                       className="img-fluid"
                       src="https://cdn.theatlantic.com/assets/media/img/mt/2018/01/RTS193GB/lead_720_405.jpg?mod=1533691918/150px180"
@@ -187,11 +187,11 @@ export default class Home extends Component {
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </Card.Text>
-                  </div>
+                  </Card>
                 </div>
 
                 <div className="col-md-3 mb-3">
-                  <div className="card red">
+                  <Card className="red">
                     <img
                       className="img-fluid"
                       src="https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1440,w_2560,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1526152229/180512-cathart-tbilisi-hero_zl4phh"
@@ -212,11 +212,11 @@ export default class Home extends Component {
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </Card.Text>
-                  </div>
+                  </Card>
                 </div>
 
                 <div className="col-md-3 mb-3">
-                  <div className="card red">
+                  <Card className="red">
                     <img
                       className="img-fluid"
                       src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/10/12/1444665090823/7c52dec6-fce9-431e-b079-a07d49f6d2ee-2060x1236.jpeg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMTUucG5n&s=fb870168d916031df11593bfe9bdef10"
@@ -237,11 +237,11 @@ export default class Home extends Component {
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </Card.Text>
-                  </div>
+                  </Card>
                 </div>
 
                 <div className="col-md-3 mb-3">
-                  <div className="card red">
+                  <Card className="red">
                     <img
                       className="img-fluid"
                       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSYi8idP_OKLpSwlW8e3bw4BGfFwRbEKZLdrApFiXmiC4zi-eA"
@@ -262,7 +262,7 @@ export default class Home extends Component {
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </Card.Text>
-                  </div>
+                  </Card>
                 </div>
               </div>
             </div>
@@ -296,7 +296,7 @@ NEWS SECTION */}
             <div class="carousel-inner" role="listbox">
               <div className="carousel-item active">
                 <div className="col-md-3 mb-3">
-                  <div className="card red">
+                  <Card className="red">
                     <img
                       className="img-fluid"
                       src="https://cdn.theatlantic.com/assets/media/img/mt/2018/01/RTS193GB/lead_720_405.jpg?mod=1533691918/150px180"
@@ -317,11 +317,11 @@ NEWS SECTION */}
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </Card.Text>
-                  </div>
+                  </Card>
                 </div>
 
                 <div className="col-md-3 mb-3">
-                  <div className="card red">
+                  <Card className="red">
                     <img
                       className="img-fluid"
                       src="https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1440,w_2560,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1526152229/180512-cathart-tbilisi-hero_zl4phh"
@@ -342,11 +342,11 @@ NEWS SECTION */}
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </Card.Text>
-                  </div>
+                  </Card>
                 </div>
 
                 <div className="col-md-3 mb-3">
-                  <div className="card red">
+                  <Card className="red">
                     <img
                       className="img-fluid"
                       src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/10/12/1444665090823/7c52dec6-fce9-431e-b079-a07d49f6d2ee-2060x1236.jpeg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMTUucG5n&s=fb870168d916031df11593bfe9bdef10"
@@ -367,11 +367,11 @@ NEWS SECTION */}
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </Card.Text>
-                  </div>
+                  </Card>
                 </div>
 
                 <div className="col-md-3 mb-3">
-                  <div className="card red">
+                  <Card className="red">
                     <img
                       className="img-fluid"
                       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSYi8idP_OKLpSwlW8e3bw4BGfFwRbEKZLdrApFiXmiC4zi-eA"
@@ -392,13 +392,13 @@ NEWS SECTION */}
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </Card.Text>
-                  </div>
+                  </Card>
                 </div>
               </div>
 
               <div className="carousel-item">
                 <div className="col-md-3 mb-3">
-                  <div className="card red">
+                  <Card className="red">
                     <img
                       className="img-fluid"
                       src="https://cdn.theatlantic.com/assets/media/img/mt/2018/01/RTS193GB/lead_720_405.jpg?mod=1533691918/150px180"
@@ -419,11 +419,11 @@ NEWS SECTION */}
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </Card.Text>
-                  </div>
+                  </Card>
                 </div>
 
                 <div className="col-md-3 mb-3">
-                  <div className="card red">
+                  <Card className="ed">
                     <img
                       className="img-fluid"
                       src="https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1440,w_2560,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1526152229/180512-cathart-tbilisi-hero_zl4phh"
@@ -444,11 +444,11 @@ NEWS SECTION */}
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </Card.Text>
-                  </div>
+                  </Card>
                 </div>
 
                 <div className="col-md-3 mb-3">
-                  <div className="card red">
+                  <Card className="red">
                     <img
                       className="img-fluid"
                       src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/10/12/1444665090823/7c52dec6-fce9-431e-b079-a07d49f6d2ee-2060x1236.jpeg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMTUucG5n&s=fb870168d916031df11593bfe9bdef10"
@@ -469,11 +469,11 @@ NEWS SECTION */}
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </Card.Text>
-                  </div>
+                  </Card>
                 </div>
 
                 <div className="col-md-3 mb-3">
-                  <div className="card red">
+                  <Card className="red">
                     <img
                       className="img-fluid"
                       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSYi8idP_OKLpSwlW8e3bw4BGfFwRbEKZLdrApFiXmiC4zi-eA"
@@ -494,7 +494,7 @@ NEWS SECTION */}
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </Card.Text>
-                  </div>
+                  </Card>
                 </div>
               </div>
             </div>
@@ -527,7 +527,7 @@ NEWS SECTION */}
             <div className="carousel-inner" role="listbox">
               <div className="carousel-item active">
                 <div className="col-md-3 mb-3">
-                  <div className="card red">
+                  <Card className="ed">
                     <img
                       className="img-fluid"
                       src="https://cdn.theatlantic.com/assets/media/img/mt/2018/01/RTS193GB/lead_720_405.jpg?mod=1533691918/150px180"
@@ -548,7 +548,7 @@ NEWS SECTION */}
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </Card.Text>
-                  </div>
+                  </Card>
                 </div>
 
                 <div className="col-md-3 mb-3">
@@ -577,7 +577,7 @@ NEWS SECTION */}
                 </div>
 
                 <div className="col-md-3 mb-3">
-                  <div className="card red">
+                  <Card className="red">
                     <img
                       className="img-fluid"
                       src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/10/12/1444665090823/7c52dec6-fce9-431e-b079-a07d49f6d2ee-2060x1236.jpeg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMTUucG5n&s=fb870168d916031df11593bfe9bdef10"
@@ -598,11 +598,11 @@ NEWS SECTION */}
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </Card.Text>
-                  </div>
+                  </Card>
                 </div>
 
                 <div className="col-md-3 mb-3">
-                  <div className="card red">
+                  <Card className="red">
                     <img
                       className="img-fluid"
                       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSYi8idP_OKLpSwlW8e3bw4BGfFwRbEKZLdrApFiXmiC4zi-eA"
@@ -623,13 +623,13 @@ NEWS SECTION */}
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </Card.Text>
-                  </div>
+                  </Card>
                 </div>
               </div>
 
               <div className="carousel-item">
                 <div className="col-md-3 mb-3">
-                  <div className="card red">
+                  <Card className="red">
                     <img
                       className="img-fluid"
                       src="https://cdn.theatlantic.com/assets/media/img/mt/2018/01/RTS193GB/lead_720_405.jpg?mod=1533691918/150px180"
@@ -650,11 +650,11 @@ NEWS SECTION */}
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </Card.Text>
-                  </div>
+                  </Card>
                 </div>
 
                 <div className="col-md-3 mb-3">
-                  <div className="card red">
+                  <Card className="red">
                     <img
                       className="img-fluid"
                       src="https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1440,w_2560,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1526152229/180512-cathart-tbilisi-hero_zl4phh"
@@ -675,11 +675,11 @@ NEWS SECTION */}
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </Card.Text>
-                  </div>
+                  </Card>
                 </div>
 
                 <div className="col-md-3 mb-3">
-                  <div className="card red">
+                  <Card className="red">
                     <img
                       className="img-fluid"
                       src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/10/12/1444665090823/7c52dec6-fce9-431e-b079-a07d49f6d2ee-2060x1236.jpeg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMTUucG5n&s=fb870168d916031df11593bfe9bdef10"
@@ -700,11 +700,11 @@ NEWS SECTION */}
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </Card.Text>
-                  </div>
+                  </Card>
                 </div>
 
                 <div className="col-md-3 mb-3">
-                  <div className="card red">
+                  <Card className="red">
                     <img
                       className="img-fluid"
                       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSYi8idP_OKLpSwlW8e3bw4BGfFwRbEKZLdrApFiXmiC4zi-eA"
@@ -725,7 +725,7 @@ NEWS SECTION */}
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </Card.Text>
-                  </div>
+                  </Card>
                 </div>
               </div>
             </div>
@@ -758,7 +758,7 @@ NEWS SECTION */}
             <div className="carousel-inner" role="listbox">
               <div className="carousel-item active">
                 <div className="col-md-3 mb-3">
-                  <div className="card red">
+                  <Card className="ed">
                     <img
                       className="img-fluid"
                       src="https://cdn.theatlantic.com/assets/media/img/mt/2018/01/RTS193GB/lead_720_405.jpg?mod=1533691918/150px180"
@@ -779,7 +779,7 @@ NEWS SECTION */}
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </Card.Text>
-                  </div>
+                  </Card>
                 </div>
 
                 <div className="col-md-3 mb-3">
@@ -808,7 +808,7 @@ NEWS SECTION */}
                 </div>
 
                 <div className="col-md-3 mb-3">
-                  <div className="card red">
+                  <Card className="red">
                     <img
                       className="img-fluid"
                       src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/10/12/1444665090823/7c52dec6-fce9-431e-b079-a07d49f6d2ee-2060x1236.jpeg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMTUucG5n&s=fb870168d916031df11593bfe9bdef10"
@@ -829,11 +829,11 @@ NEWS SECTION */}
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </Card.Text>
-                  </div>
+                  </Card>
                 </div>
 
                 <div className="col-md-3 mb-3">
-                  <div className="card red">
+                  <Card className="red">
                     <img
                       className="img-fluid"
                       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSYi8idP_OKLpSwlW8e3bw4BGfFwRbEKZLdrApFiXmiC4zi-eA"
@@ -854,13 +854,13 @@ NEWS SECTION */}
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </Card.Text>
-                  </div>
+                  </Card>
                 </div>
               </div>
 
               <div className="carousel-item">
                 <div className="col-md-3 mb-3">
-                  <div className="card red">
+                  <Card className="red">
                     <img
                       className="img-fluid"
                       src="https://cdn.theatlantic.com/assets/media/img/mt/2018/01/RTS193GB/lead_720_405.jpg?mod=1533691918/150px180"
@@ -881,11 +881,11 @@ NEWS SECTION */}
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </Card.Text>
-                  </div>
+                  </Card>
                 </div>
 
                 <div className="col-md-3 mb-3">
-                  <div className="card red">
+                  <Card className="red">
                     <img
                       className="img-fluid"
                       src="https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1440,w_2560,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1526152229/180512-cathart-tbilisi-hero_zl4phh"
@@ -906,11 +906,11 @@ NEWS SECTION */}
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </Card.Text>
-                  </div>
+                  </Card>
                 </div>
 
                 <div className="col-md-3 mb-3">
-                  <div className="card red">
+                  <Card className="red">
                     <img
                       className="img-fluid"
                       src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/10/12/1444665090823/7c52dec6-fce9-431e-b079-a07d49f6d2ee-2060x1236.jpeg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMTUucG5n&s=fb870168d916031df11593bfe9bdef10"
@@ -931,11 +931,11 @@ NEWS SECTION */}
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </Card.Text>
-                  </div>
+                  </Card>
                 </div>
 
                 <div className="col-md-3 mb-3">
-                  <div className="card red">
+                  <Card className="red">
                     <img
                       className="img-fluid"
                       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSYi8idP_OKLpSwlW8e3bw4BGfFwRbEKZLdrApFiXmiC4zi-eA"
@@ -956,7 +956,7 @@ NEWS SECTION */}
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </Card.Text>
-                  </div>
+                  </Card>
                 </div>
               </div>
             </div>

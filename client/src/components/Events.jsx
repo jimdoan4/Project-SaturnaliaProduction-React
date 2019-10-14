@@ -4,7 +4,8 @@ import { Container } from "react-bootstrap";
 import { Card } from "react-bootstrap";
 import { Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
-
+import { Row } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 
 export default class Events extends Component {
   state = {
@@ -71,7 +72,7 @@ export default class Events extends Component {
   render() {
     return (
       <div>
-        <section id="team">
+        <div id="team">
           <div className="containers">
             <h1>Events</h1>
             <br />
@@ -80,10 +81,10 @@ export default class Events extends Component {
             <Container
               className="text-center"
             >
-              <div className="row">
+              <Row>
                 {this.state.events.map(event => {
                   return (
-                    <div className="col jumbotron profile-pic text-center">
+                    <Col className="jumbotron profile-pic text-center">
                       <div className="img-box">
                         <Link to={`/events/${event._id}`} key={event._id}>
                           <img
@@ -112,10 +113,10 @@ export default class Events extends Component {
                       <Card.Text className="text-center">
                         {event.eventDescription}
                       </Card.Text>
-                    </div>
+                    </Col>
                   );
                 })}
-              </div>
+              </Row>
             </Container>
           </div>
           <div style={{ marginTop: "80px" }}>
@@ -123,7 +124,7 @@ export default class Events extends Component {
               Add Event
             </button>
           </div>
-        </section>
+        </div>
 
         <div className="container">
           {this.state.displayEventForm ? (

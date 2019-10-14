@@ -6,7 +6,6 @@ const Event = require('../models/Event.js');
 const Review = require('../models/Review.js');
 
 
-
 const blog = new User({
 	title: "DeKalb police: Murder of a Decatur man was ‘hate-motivated",
 	description: "The man shot and killed as he walked to a MARTA station in Decatur was harassed by two men about his sexuality one week before the tragic incident.",

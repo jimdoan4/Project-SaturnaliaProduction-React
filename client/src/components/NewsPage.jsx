@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Container } from "react-bootstrap";
 import { Card } from "react-bootstrap";
+import { Row } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 
 
 export default class NewsPage extends Component {
@@ -8,7 +10,7 @@ export default class NewsPage extends Component {
   render() {
     return (
       <div>
-        <section id="team">
+        <div id="team">
           <div className="containers">
             <h1>
               <p className="text-center">
@@ -18,8 +20,8 @@ export default class NewsPage extends Component {
             <br />
             <Container
               className="text-center">
-              <div className="row">
-                <div className="col profile-pic text-center">
+              <Row>
+                <Col className="profile-pic text-center">
                   <div className="img-box">
                     <img
                       src="https://www.projectq.us/images/uploads/6_9_19_Possums_Summer_Camp-24.jpg"
@@ -64,11 +66,11 @@ export default class NewsPage extends Component {
                       here.
                     </p>
                   </Card.Text>
-                </div>
-              </div>
+                </Col>
+              </Row>
             </Container>
           </div>
-        </section>
+        </div>
       </div>
     );
   }

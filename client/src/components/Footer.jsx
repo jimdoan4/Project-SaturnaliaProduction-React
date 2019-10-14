@@ -1,16 +1,18 @@
 import React, { Component } from "react";
+import { Row } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 
 
 export default class Footer extends Component {
   render() {
     return (
       <div>
-         <section className="footer">
+         <div className="footer">
             <div
               style={{ paddingTop: "80px", paddingBottom: "60px" }}
               className="container tex-center">
-              <div className="row">
-                <div className="col-md-4 text-center">
+              <Row>
+                <Col md={4} className="text-center">
                   <h2
                     className="text-center "
                     style={{
@@ -23,9 +25,9 @@ export default class Footer extends Component {
                   <p>Privacy Policy</p>
                   <p>Terms of Use</p>
                   <p>Return Policy</p>
-                </div>
+                </Col>
 
-                <div className="col-md-4 text-center">
+                <Col md={4} className="text-center">
                   <h2
                     className="text-center "
                     style={{
@@ -38,10 +40,10 @@ export default class Footer extends Component {
                   <p>About Us</p>
                   <p>Contact Us</p>
                   <p>Affiliate</p>
-                </div>
-                <div className="col-md-4 text-center">
+                </Col>
+                <Col md={4} className="text-center">
                   <h2
-                    className="text-center "
+                    className="text-center"
                     style={{
                       color: "black",
                       fontSize: "19px"
@@ -59,11 +61,11 @@ export default class Footer extends Component {
                   <p>
                     <i className="fa fa-twitter" /> Twitter
                   </p>
-                </div>
-              </div>
+                </Col>
+              </Row>
             </div>
             <p className="text-center">© SATURNALIA PRODUCTIONS 2019</p>
-          </section>
+          </div>
       </div>
     );
   }

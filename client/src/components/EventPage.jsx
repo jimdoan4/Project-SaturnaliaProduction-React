@@ -76,15 +76,15 @@ export default class EventPage extends Component {
     }
     return (
       <div>
-        <section id="team">
+        <div id="team">
           <div className="containers">
-            <h1>
-              <p className="text-center">{this.state.event.eventTitle} </p>
+            <h1
+              className="text-center">{this.state.event.eventTitle} 
             </h1>
             <br />
             <Container className="text-center">
-              <div className="row">
-                <div className="col profile-pic text-center">
+              <Row>
+                <Col className="profile-pic text-center">
                   <div className="img-box">
                     <img
                       src={this.state.event.eventImage}
@@ -106,11 +106,11 @@ export default class EventPage extends Component {
                   <Card.Text className="text-center">
                     {this.state.event.eventDescription}
                   </Card.Text>
-                </div>
-              </div>
+                </Col>
+              </Row>
             </Container>
           </div>
-        </section>
+        </div>
         <Container>
           <Row>
             <Col>

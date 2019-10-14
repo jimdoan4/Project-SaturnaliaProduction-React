@@ -2,13 +2,16 @@ import React, { Component } from "react";
 import { Jumbotron } from "react-bootstrap";
 import { Card } from "react-bootstrap";
 import { ListGroup } from "react-bootstrap";
+import { Row } from "react-bootstrap";
+import { Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 
 export default class Contact extends Component {
   render() {
     return (
       <div>
-        <section id="team">
+        <div id="team">
           <div className="containers">
             <h1>About SATURNALIA PRODUCTIONS</h1>
             <br />
@@ -21,9 +24,9 @@ export default class Contact extends Component {
               eleifend mauris elementum et.
             </p>
             <br />
-            <div className="container">
-              <div className="row">
-                <div className="col text-center">
+            <Container>
+              <Row>
+                <Col className="text-center">
                   <Jumbotron>
                     <Card.Header style={{ color: "black" }}>
                       General Enquiries
@@ -40,8 +43,8 @@ export default class Contact extends Component {
                       </ListGroup.Item>
                     </ListGroup>
                   </Jumbotron>
-                </div>
-                <div className="col text-center">
+                </Col>
+                <Col className="text-center">
                   <Jumbotron>
                     <Card.Header style={{ color: "black" }}>
                       Social Media
@@ -58,11 +61,11 @@ export default class Contact extends Component {
                       </ListGroup.Item>
                     </ListGroup>
                   </Jumbotron>
-                </div>
-              </div>
-            </div>
+                </Col>
+              </Row>
+            </Container>
           </div>
-        </section>
+        </div>
       </div>
     );
   }
